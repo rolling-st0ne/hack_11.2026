@@ -1,0 +1,15 @@
+{
+  "name": "fotoprint-control",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Track 1: unified operations, decisions, and verification",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "dev": "node --watch src/server.mjs",
+    "start": "node src/server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "seed": "node scripts/reseed.mjs"
+  }
+}

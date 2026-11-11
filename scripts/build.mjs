@@ -1,0 +1,14 @@
+import { mkdirSync, readFileSync, writeFileSync, cpSync } from 'node:fs';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const read=p=>readFileSync(resolve(root,p),'utf8');
+mkdirSync(resolve(root,'dist/server'),{recursive:true});
+mkdirSync(resolve(root,'dist/.openai'),{recursive:true});
+const strip=source=>source.replace(/^import .*?;\n/gm,'').replace(/^export /gm,'');
+const assets=Object.fromEntries(['index.html','styles.css','app.js','favicon.svg'].map(file=>['/'+file,{content:read('public/'+file),type:file.endsWith('.html')?'text/html; charset=utf-8':file.endsWith('.css')?'text/css; charset=utf-8':file.endsWith('.svg')?'image/svg+xml':'text/javascript; charset=utf-8'}]));
+const worker=`${strip(read('src/seed.mjs'))}\n${strip(read('src/analytics.mjs'))}\n${strip(read('src/store.mjs'))}\n${strip(read('src/api.mjs'))}\nconst assets=${JSON.stringify(assets)};\nexport default {async fetch(request,env){const url=new URL(request.url);if(url.pathname.startsWith('/api/'))return handleApi(request,createStore(env.DB));const asset=assets[url.pathname==='/'?'/index.html':url.pathname];if(!asset)return new Response('Not found',{status:404});if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405});return new Response(request.method==='HEAD'?null:asset.content,{headers:{'content-type':asset.type,'x-content-type-options':'nosniff','cache-control':'no-cache'}});}};`;
+writeFileSync(resolve(root,'dist/server/index.js'),worker);
+cpSync(resolve(root,'.openai/hosting.json'),resolve(root,'dist/.openai/hosting.json'));
+cpSync(resolve(root,'drizzle'),resolve(root,'dist/.openai/drizzle'),{recursive:true});
+console.log('Built Worker + embedded assets + D1 migrations.');
