@@ -1,11 +1,15 @@
 import { generateFacts } from './analytics.mjs';
 export const STAGES = ['Сигнал', 'Клиент', 'Заказ', 'Проверка', 'Производство', 'Доставка', 'Поддержка', 'Возврат'];
 export const ACTORS = {
-  executive: { id: 'elena', name: 'Елена Волкова', initials: 'ЕВ', role: 'executive', title: 'Руководство', scope: 'all' },
-  manager: { id: 'anna', name: 'Анна Смирнова', initials: 'АС', role: 'manager', title: 'Руководитель фотокниг', scope: 'books' },
-  analyst: { id: 'alex', name: 'Алексей Новиков', initials: 'АН', role: 'analyst', title: 'Аналитик / администратор', scope: 'all' },
-  operator: { id: 'mikhail', name: 'Михаил Козлов', initials: 'МК', role: 'operator', title: 'Операционная команда', scope: 'books' },
+  executive: { key:'executive', id:'elena', name:'Елена Волкова', initials:'ЕВ', role:'executive', level:1, title:'Директор', scope:'all', departments:['books','photo','gifts'], focus:'Компания', pages:['overview','sales','production','finance','flow','decisions','audit','integrations','dictionary'] },
+  maxim: { key:'maxim', id:'maxim', name:'Сущёнок Максим', initials:'СМ', role:'manager', level:2, title:'Заместитель директора по работе с клиентами', scope:'photo', departments:['photo'], focus:'Работа с клиентами', pages:['overview','sales','flow','decisions','audit','dictionary'] },
+  sergey: { key:'sergey', id:'sergey', name:'Зыков Сергей', initials:'ЗС', role:'manager', level:2, title:'Заместитель директора по развитию', scope:'development', departments:['books','gifts'], focus:'Развитие', pages:['overview','sales','production','finance','flow','decisions','audit','dictionary'] },
+  operator: { key:'operator', id:'mikhail', name:'Михаил Козлов', initials:'МК', role:'operator', level:3, title:'Специалист производства', scope:'books', departments:['books'], focus:'Моя смена', pages:['overview','flow','decisions','audit','dictionary'] },
+  support_staff: { key:'support_staff', id:'daria', name:'Дарья Соколова', initials:'ДС', role:'operator', level:3, title:'Специалист поддержки', scope:'photo', departments:['photo'], focus:'Мои обращения', pages:['overview','flow','decisions','audit','dictionary'] },
+  growth_staff: { key:'growth_staff', id:'igor', name:'Игорь Петров', initials:'ИП', role:'operator', level:3, title:'Координатор заказов', scope:'gifts', departments:['gifts'], focus:'Мои заказы', pages:['overview','flow','decisions','audit','dictionary'] },
 };
+export const canAccessDepartment=(actor,department)=>actor.departments.includes(department);
+export const departmentOwner=department=>({books:'mikhail',photo:'daria',gifts:'igor'}[department]);
 export const OWNERS = [
   { id: 'mikhail', name: 'Михаил Козлов', department: 'Производство', initials: 'МК' },
   { id: 'daria', name: 'Дарья Соколова', department: 'Поддержка', initials: 'ДС' },

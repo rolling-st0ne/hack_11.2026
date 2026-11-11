@@ -1,4 +1,4 @@
-import { KPI, STAGES } from './seed.mjs';
+import { KPI, STAGES, canAccessDepartment, departmentOwner } from './seed.mjs';
 
 export const DEPARTMENTS=[{id:'books',name:'Фотокниги'},{id:'photo',name:'Фотопечать'},{id:'gifts',name:'Фотосувениры'}];
 export const PRODUCTS=[{id:'book',name:'Фотокнига',department:'books'},{id:'prints',name:'Фотографии',department:'photo'},{id:'canvas',name:'Холст',department:'gifts'},{id:'calendar',name:'Календарь',department:'gifts'},{id:'cards',name:'Открытки',department:'photo'}];
@@ -21,18 +21,18 @@ export function generateFacts(now=Date.now()) {
 
 export function analytics(state,actor,filters={}) {
   const scoped=actor.scope!=='all';
-  const department=scoped?actor.scope:(filters.department||'all');
+  const department=scoped&&actor.departments.length===1?actor.departments[0]:(filters.department||'all');
   const product=filters.product||'all',period=['today','week','month'].includes(filters.period)?filters.period:'week';
   const days={today:1,week:7,month:28}[period],now=Date.now(),start=now-days*86400000,previous=start-days*86400000;
   const f=state.facts;
-  const relevant=o=>(department==='all'||o.department===department)&&(product==='all'||o.productId===product);
+  const relevant=o=>canAccessDepartment(actor,o.department)&&(actor.role!=='operator'||departmentOwner(o.department)===actor.id)&&(department==='all'||o.department===department)&&(product==='all'||o.productId===product);
   const rows=f.orders.filter(o=>relevant(o)&&new Date(o.createdAt).getTime()>=start);
   const prev=f.orders.filter(o=>relevant(o)&&new Date(o.createdAt).getTime()>=previous&&new Date(o.createdAt).getTime()<start);
   const orderIds=new Set(rows.map(o=>o.id));
   const tickets=f.interactions.filter(t=>orderIds.has(t.orderId)&&new Date(t.createdAt).getTime()>=start);
   const customers=new Set(rows.map(o=>o.customerId));
   const newClients=f.customers.filter(c=>customers.has(c.id)&&new Date(c.createdAt).getTime()>=start).length;
-  const staff=f.staff.filter(s=>department==='all'||s.department===department);
+  const staff=f.staff.filter(s=>canAccessDepartment(actor,s.department)&&(department==='all'||s.department===department));
   const productFactor=product==='all'?1:.5;
   const completed=rows.filter(o=>o.completed);
   const revenue=sum(rows,'revenue'),prevRevenue=sum(prev,'revenue'),cost=sum(rows,'cost');
@@ -58,9 +58,9 @@ export function analytics(state,actor,filters={}) {
     const bad=k.id==='moderation'?value>30:['quality','support','delivery'].includes(k.id)?value<threshold[k.id]:k.id==='production'?value>90:false;
     let plan=threshold[k.id]??(k.id==='orders'?Math.round(prev.length*1.08):Math.round(customers.size*.95));
     const forecast=['customers','orders'].includes(k.id)?Math.round(value*1.08):value;
-    return {...k,value:fmt(value),raw:value,unit:k.id==='team'?'/ '+fmt(plannedStaff):k.unit,plan,forecast:fmt(forecast),updatedAt:state.lastUpdated,state:bad?'Требует внимания':'В норме',trend:bad?'negative':'positive',change:k.id==='orders'?(prev.length?((rows.length/prev.length-1)*100).toFixed(1).replace('.',',')+'%':'Нет базы'):bad?'Ниже цели':'В норме',formula:k.id==='team'?'Сотрудники на смене в выбранном подразделении / план смены':k.formula,sourceAt:state.connectors.find(c=>k.source.includes('ERP')?c.id==='erp':k.id==='support'?c.id==='support':k.id==='team'?c.id==='hr':c.id==='crm')?.lastSync};
+    return {...k,value:fmt(value),raw:value,unit:k.id==='team'?'/ '+fmt(plannedStaff):k.unit,plan,forecast:fmt(forecast),updatedAt:state.lastUpdated,state:bad?'Требует внимания':'В норме',trend:bad?'negative':'positive',change:k.id==='orders'?(prev.length?((rows.length/prev.length-1)*100).toFixed(1).replace('.',',')+'%':'Нет базы'):bad?'Ниже цели':'В норме',formula:k.id==='team'?'Сотрудники на смене в выбранном подразделении / план смены':k.formula,source:'Filesystem / '+(k.id==='support'?'interactions.csv':k.id==='team'?'staff.csv':'orders.csv'),sourceAt:state.lastUpdated};
   });
-  const extra=(id,label,value,unit,icon,formula,source,plan,description,good=true)=>({id,label,value:fmt(value),raw:value,unit,icon,formula,source,plan,forecast:fmt(value),description,state:good?'В норме':'Требует внимания',trend:good?'positive':'negative',change:good?'В норме':'Ниже цели',series:[25,31,28,36,33,39,40,45,42,46,44,51],updatedAt:state.lastUpdated,sourceAt:state.connectors.find(c=>c.id==='finance')?.lastSync,owner:'Анна Смирнова'});
+  const extra=(id,label,value,unit,icon,formula,source,plan,description,good=true)=>({id,label,value:fmt(value),raw:value,unit,icon,formula,source:'Filesystem / orders.csv',plan,forecast:fmt(value),description,state:good?'В норме':'Требует внимания',trend:good?'positive':'negative',change:good?'В норме':'Ниже цели',series:[25,31,28,36,33,39,40,45,42,46,44,51],updatedAt:state.lastUpdated,sourceAt:state.lastUpdated,owner:'Анна Смирнова'});
   kpis.push(
     extra('revenue','Оборот · индекс',revenueIndex,'','chart','Выручка периода / план выручки × 100; план = выручка прошлого периода × 1,08','1С / ERP',100,'план = 100',revenueIndex>=100),
     extra('margin','Валовая маржа',margin,'%','percent','(Выручка − себестоимость) / выручка × 100%','1С / Финансы',32,'доля в обороте',margin>=32),
@@ -99,5 +99,15 @@ export function analytics(state,actor,filters={}) {
   const averageIndex=prev.length&&prevRevenue?Math.round((revenue/(rows.length||1))/(prevRevenue/prev.length)*1000)/10:100;
   const finance={revenueIndex,margin,costIndex:revenue?pct(cost,revenue):0,bdr:{plan:100,fact:revenueIndex},bdds:{plan:100,fact:revenue?pct(sum(rows.filter(o=>o.paymentStatus==='paid'),'revenue'),revenue):0},reconciliation:{matched:rows.filter(o=>o.paymentStatus===o.financeStatus).length,total:rows.length,mismatched:rows.filter(o=>o.paymentStatus!==o.financeStatus).length,status:'matched'},staff:plannedStaff,actual:actualStaff,vacancies:sum(staff,'openVacancies')*productFactor,absent:sum(staff,'absent')*productFactor};
   const qualityReport={orders:scoped?rows.length:f.orders.length,customers:scoped?customers.size:f.customers.length,interactions:scoped?tickets.length:f.interactions.length,missing:rows.filter(o=>!o.customerId||!o.productId).length,duplicates:rows.length-new Set(rows.map(o=>o.id)).size,reconciled:finance.reconciliation,generatedAt:f.generatedAt};
-  return {kpis,series,forecast,stageCounts,flow,channels,segments,finance,qualityReport,averageIndex,repeat,conversion,lead,productionPlan:Math.round(capacity/.8),productionFact:sum(rows,'units'),downtime:sum(rows,'downtimeMinutes'),filters:{period,department,product},departments:scoped?DEPARTMENTS.filter(d=>d.id===actor.scope):DEPARTMENTS,products:PRODUCTS.filter(p=>department==='all'||p.department===department),totals:{orders:rows.length,customers:customers.size,tickets:tickets.length},empty:rows.length===0};
+  const performance=actor.role==='executive'?managerPerformance(f.performance,days):null;
+  const seriesForecast=Array.from({length:4},(_,i)=>({label:`+${i+1}`,orders:Math.round(rows.length/buckets*(1.06+i*.12)),customers:Math.round(customers.size/buckets*(1.06+i*.12))}));
+  return {kpis,series,seriesForecast,forecast,performance,stageCounts,flow,channels,segments,finance,qualityReport,averageIndex,repeat,conversion,lead,productionPlan:Math.round(capacity/.8),productionFact:sum(rows,'units'),downtime:sum(rows,'downtimeMinutes'),filters:{period,department,product},departments:DEPARTMENTS.filter(d=>canAccessDepartment(actor,d.id)),products:PRODUCTS.filter(p=>canAccessDepartment(actor,p.department)&&(department==='all'||p.department===department)),totals:{orders:rows.length,customers:customers.size,tickets:tickets.length},empty:rows.length===0};
+}
+
+function managerPerformance(records,days){
+  if(!records?.length)return null;
+  const scaled=records.map(p=>({...p,hours:p.hours*days/7,completed:p.completed*days/7,rate:p.hours?p.completed/p.hours:0}));
+  const employees=scaled.filter(p=>!p.isAgent),mary=scaled.find(p=>p.isAgent);
+  const hours=employees.reduce((n,p)=>n+p.hours,0),averageRate=hours?employees.reduce((n,p)=>n+p.completed,0)/hours:0;
+  return {employees,agent:mary,averageRate,multiplier:averageRate?mary.rate/averageRate:0,mode:'csv',formula:'Завершённые задачи / рабочие часы; сравнение со средневзвешенной производительностью сотрудников'};
 }
