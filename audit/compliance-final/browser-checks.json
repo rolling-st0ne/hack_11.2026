@@ -1,0 +1,33 @@
+{
+  "method": "Native Chrome accessibility and screenshots; isolated localhost:13000, disposable credentials and CSV",
+  "viewports": [
+    "desktop",
+    "390x680",
+    "768x680",
+    "320x680"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "passed": [
+    "director sign-in",
+    "required decision fields and scoped owner",
+    "Tab/Enter navigation through action and verification",
+    "custom dropdown via arrows and Enter",
+    "edited draft survives Escape and reopening",
+    "unchanged check leaves decision in review",
+    "recovered check closes decision at 24 orders / target 30",
+    "decision persists after reload",
+    "phone navigation opens and focuses dashboard link",
+    "hidden mobile sidebar excluded when closed",
+    "header actions wrap on phone/tablet",
+    "primary cards and form text readable"
+  ],
+  "viewportReset": true,
+  "limits": [
+    "Not a WCAG certification or exhaustive device/browser matrix",
+    "Browser extension DOM/screenshot calls failed; native fallback used",
+    "Network timeout behavior verified in a unit test; invalid data and API failures exercised by API tests"
+  ]
+}

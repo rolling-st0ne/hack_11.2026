@@ -1,0 +1,2 @@
+ Container fotoprint-presentation-app-1  Restarting
+ Container fotoprint-presentation-app-1  Started

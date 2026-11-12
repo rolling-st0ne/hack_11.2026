@@ -1,0 +1,5 @@
+id,name,direction,hours,completed,isAgent
+anna,Анна Смирнова,Операции,40,240,false
+daria,Дарья Соколова,Клиентский сервис,36,216,false
+igor,Игорь Петров,Развитие,44,264,false
+mary,Mary,AI-менеджер,40,720,true

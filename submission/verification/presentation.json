@@ -1,0 +1,11 @@
+{
+  "slides": 10,
+  "speakerNotes": 10,
+  "nativeTables": 2,
+  "sha256": "cc5e7874316ccc443a19020a2b16d8f214c432c8a3a45657239a76e570fc1da5",
+  "structuralValidation": "passed",
+  "geometryValidation": "passed",
+  "artifactImport": "passed",
+  "visualReview": "All 10 rendered final slides inspected individually; no clipping or overlap observed",
+  "nativePowerPointExecutionVerified": false
+}

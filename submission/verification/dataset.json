@@ -1,0 +1,113 @@
+{
+  "track": 1,
+  "synthetic": true,
+  "files": {
+    "orders": {
+      "rows": 1800,
+      "fields": [
+        "id",
+        "customerId",
+        "productId",
+        "department",
+        "channel",
+        "createdAt",
+        "stage",
+        "units",
+        "revenue",
+        "currency",
+        "cost",
+        "completed",
+        "onTime",
+        "defect",
+        "moderationMinutes",
+        "leadHours",
+        "downtimeMinutes",
+        "paymentStatus",
+        "financeStatus",
+        "sourceEventId",
+        "promisedAt",
+        "completedAt",
+        "reprinted",
+        "market",
+        "regionId",
+        "managerId"
+      ],
+      "sha256": "1ca2c33489e89ad5698b5a4d7d6c3b7ce7d1ee50ba4419974261895727eb1b70"
+    },
+    "customers": {
+      "rows": 360,
+      "fields": [
+        "id",
+        "segment",
+        "channel",
+        "createdAt"
+      ],
+      "sha256": "3816ed9cbf9facb6ec926547f61a9152f11195cbbd89b867a49ca1afe89ed55e"
+    },
+    "interactions": {
+      "rows": 800,
+      "fields": [
+        "id",
+        "orderId",
+        "customerId",
+        "department",
+        "createdAt",
+        "firstReplyMinutes",
+        "channel",
+        "topic",
+        "status",
+        "employeeId",
+        "botAssisted",
+        "handedOff"
+      ],
+      "sha256": "1dddb0efe88d452baeff3e3e47cd204005f165168fd0135dccab9f76317cf72d"
+    },
+    "shifts": {
+      "rows": 228,
+      "fields": [
+        "id",
+        "department",
+        "startsAt",
+        "endsAt",
+        "planned",
+        "actual",
+        "absent",
+        "availableHours",
+        "plannedUnits",
+        "source"
+      ],
+      "sha256": "a361e41641fa656a59e583b22560e812f0362b55417dc484a80847fede924721"
+    },
+    "staff": {
+      "rows": 3,
+      "fields": [
+        "department",
+        "planned",
+        "actual",
+        "absent",
+        "openVacancies",
+        "availableHours",
+        "leads"
+      ],
+      "sha256": "c5ee2b6077830eced7ac5a9822d2b2c805a0d976f0525ac2a0cf38a26274281e"
+    },
+    "employees": {
+      "rows": 7,
+      "fields": [
+        "id",
+        "name",
+        "department",
+        "isAgent"
+      ],
+      "sha256": "ff9f6e29d5d8c758d4a90e258c21929909203382a2ecc021d90252495497a7a1"
+    }
+  },
+  "minimumsPassed": true,
+  "controlPeriod": {
+    "from": "2026-11-06",
+    "to": "2026-11-12",
+    "orders": 220,
+    "revenueBYN": 81563,
+    "moderation": 53
+  }
+}

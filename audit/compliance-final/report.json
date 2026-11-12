@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "at": "2026-11-12T13:09:55.680204+00:00",
+    "scope": "Local/LAN Track 1 prototype and submission package; supplied specification revision 2.0",
+    "softwareAndPackageGapsResolved": 21,
+    "tests": 67,
+    "failedTests": 0,
+    "formalJuryAcceptance": "not performed; demo and architecture answers prepared",
+    "hostedSite": "not modified; excluded by user",
+    "repository": "https://github.com/rolling-st0ne/hack_11.2026/tree/spec-compliance-2026-11-12",
+    "sourceSpecSha256": "434abad9ed056e25b9be3bda885520179bd173397b292841b6d407095bbaeee8"
+  },
+  "findings": [
+    {
+      "id": "DATA-01",
+      "previousTitle": "Сохранение допустимой цели делает активное хранилище нечитаемым",
+      "requirements": [
+        "ОТ-05"
+      ],
+      "resolution": "Числа в экспоненциальной форме читаются; кандидат CSV повторно декодируется до активации CURRENT и D1 записи.",
+      "evidence": "tests/compliance.test.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "ACL-01",
+      "previousTitle": "Руководитель меняет скрытую финансовую метрику своего направления",
+      "requirements": [
+        "ОТ-02"
+      ],
+      "resolution": "Видимость старого определения проверяется до раскрытия before и повторно при подтверждении; реальный парольный отрицательный тест отклоняет попытку.",
+      "evidence": "tests/compliance.test.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "TASK-01",
+      "previousTitle": "Назначенное решение недоступно его владельцу",
+      "requirements": [
+        "5.2.3",
+        "5.3 Реестр решений"
+      ],
+      "resolution": "Направление свободной задачи определяется доступом владельца; несовместимые owner/department запрещены.",
+      "evidence": "tests/compliance.test.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "TASK-02",
+      "previousTitle": "Полнота карточки решения не обеспечена",
+      "requirements": [
+        "5.2.3"
+      ],
+      "resolution": "Проблема, причина и влияние обязательны; для сигнала используются его явные поля; UI показывает сохранённые значения.",
+      "evidence": "server/api.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "UI-01",
+      "previousTitle": "Закрытие формы уничтожает несохранённый ввод",
+      "requirements": [
+        "ОТ-05"
+      ],
+      "resolution": "Черновики сохраняются на вводе/закрытии и восстанавливаются по пользователю/объекту. Native Chrome подтвердил Escape → восстановление → успешное сохранение.",
+      "evidence": "client/app.js",
+      "status": "resolved"
+    },
+    {
+      "id": "M01",
+      "previousTitle": "Фильтр продукта оставляет чужие операционные записи",
+      "requirements": [
+        "УП-03",
+        "5.2.1"
+      ],
+      "resolution": "У FP-трасс есть productId; задачи и сигналы фильтруются по связанному заказу без пропуска записей с отсутствующим productId.",
+      "evidence": "tests/compliance.test.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "M02",
+      "previousTitle": "Пустой productId проходит импорт и ломает расчёт",
+      "requirements": [
+        "ОТ-05",
+        "5.2.5"
+      ],
+      "resolution": "Обязательные поля и ссылки проверяются до импорта; неизвестный продукт при ручной правке не обрушает аналитический экран.",
+      "evidence": "server/data-contract.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "M03",
+      "previousTitle": "Неопределённые доли превращаются в 0%",
+      "requirements": [
+        "ОТ-07",
+        "УП-02"
+      ],
+      "resolution": "Неопределённые отношения возвращают null/Нет данных. Доступные часы читаются из календаря смен.",
+      "evidence": "tests/compliance.test.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "M04",
+      "previousTitle": "Прогноз сдвигается на день из-за часового пояса сервера",
+      "requirements": [
+        "ОТ-07",
+        "5.2.4"
+      ],
+      "resolution": "Календарные подписи прогноза явно используют Europe/Minsk; проверены разные TZ сервера.",
+      "evidence": "tests/compliance.test.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "M05",
+      "previousTitle": "Общая отметка обновления выдаётся за свежесть всех источников",
+      "requirements": [
+        "УП-02",
+        "5.2.5"
+      ],
+      "resolution": "Пофайловые timestamps и SHA-256 ручных правок; KPI раскрывают времена входных файлов; staff не освежает orders.",
+      "evidence": "tests/compliance.test.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "M06",
+      "previousTitle": "Диагностика качества ограничена таблицей orders",
+      "requirements": [
+        "5.2.5"
+      ],
+      "resolution": "Общий контракт диагностирует обязательность, дубли и ссылки всех исходных таблиц; UI показывает таблицу по источникам.",
+      "evidence": "server/data-contract.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "M07",
+      "previousTitle": "KPI уникальных заказов считает физические строки",
+      "requirements": [
+        "УП-02",
+        "ОТ-07"
+      ],
+      "resolution": "Встроенные KPI используют уникальные orderId; физический дубль отдельно отражается в диагностике.",
+      "evidence": "tests/compliance.test.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "M08",
+      "previousTitle": "БДР/БДДС являются когортой заказов, а не календарём финансовых фактов",
+      "requirements": [
+        "5.3 Финансы и люди",
+        "УП-03"
+      ],
+      "resolution": "БДР/БДДС отбираются по createdAt финансового события; временная ось сверки заказов раскрыта отдельно.",
+      "evidence": "DATA-METHOD.md",
+      "status": "resolved"
+    },
+    {
+      "id": "M09",
+      "previousTitle": "Каталог агента передаёт ложные нули для пустой выборки",
+      "requirements": [
+        "ОТ-05"
+      ],
+      "resolution": "Каталог отдаёт null, state и sampleSize, сохраняя отсутствие наблюдений.",
+      "evidence": "tests/compliance.test.mjs",
+      "status": "resolved"
+    },
+    {
+      "id": "M10",
+      "previousTitle": "Хронология синтетики и связь сигнала с фактами ограничены",
+      "requirements": [
+        "УП-01",
+        "8 Данные"
+      ],
+      "resolution": "Новый поставляемый набор имеет согласованную хронологию; основные сигналы связаны с ORD-фактами. Старые импортированные события не выдумываются.",
+      "evidence": "DATA-METHOD.md",
+      "status": "resolved"
+    },
+    {
+      "id": "DATA-02",
+      "previousTitle": "Сроки представлены длительностью и флагом, без пары дат",
+      "requirements": [
+        "8 Заказы"
+      ],
+      "resolution": "Новый набор содержит promisedAt/completedAt и согласованный onTime; времена видны в карточке заказа.",
+      "evidence": "DATA-METHOD.md",
+      "status": "resolved"
+    },
+    {
+      "id": "DATA-03",
+      "previousTitle": "Отсутствует требуемый набор данных смен",
+      "requirements": [
+        "8 Производство и персонал"
+      ],
+      "resolution": "Добавлен shifts.csv с интервалами, ресурсом, составом, отсутствиями; он участвует в фактическом и четырёхнедельном расчёте мощности.",
+      "evidence": "data/filesystem/shifts.csv",
+      "status": "resolved"
+    },
+    {
+      "id": "DOC-01",
+      "previousTitle": "Текущий продукт не представлен в Git с историей",
+      "requirements": [
+        "9.1"
+      ],
+      "resolution": "Восстановлена имеющаяся история приложения; текущая поставка подготовлена в ветке spec-compliance-2026-11-12. Подтверждение публикации записывается отдельно.",
+      "evidence": "SUBMISSION.md",
+      "status": "resolved"
+    },
+    {
+      "id": "DOC-02",
+      "previousTitle": "Инструкции демонстрации и прежние результаты устарели",
+      "requirements": [
+        "9.2",
+        "9.3",
+        "9.6"
+      ],
+      "resolution": "README/DEMO/API/TESTING и сверка актуализированы; персональный вход, шестиминутный сценарий, текущие тесты.",
+      "evidence": "DEMO.md",
+      "status": "resolved"
+    },
+    {
+      "id": "DOC-03",
+      "previousTitle": "Комплект сдачи не содержит презентацию и полную схему",
+      "requirements": [
+        "9.3",
+        "9.4"
+      ],
+      "resolution": "Созданы полная Mermaid-схема и 8-слайдовая редактируемая презентация, прошедшая структурную и визуальную проверку.",
+      "evidence": "submission/presentation/output/fotoprint-track1.pptx",
+      "status": "resolved"
+    },
+    {
+      "id": "DOC-04",
+      "previousTitle": "Неполный список лицензий и устаревшее описание зависимостей",
+      "requirements": [
+        "ОТ-08",
+        "9.2"
+      ],
+      "resolution": "Добавлены реестр компонентов и 259 файлов лицензий/notices с SHA-256; notices включены в Docker-контекст.",
+      "evidence": "THIRD-PARTY-NOTICES.md",
+      "status": "resolved"
+    }
+  ],
+  "browser": {
+    "method": "Native Chrome accessibility and screenshots; isolated localhost:13000, disposable credentials and CSV",
+    "viewports": [
+      "desktop",
+      "390x680",
+      "768x680",
+      "320x680"
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "passed": [
+      "director sign-in",
+      "required decision fields and scoped owner",
+      "Tab/Enter navigation through action and verification",
+      "custom dropdown via arrows and Enter",
+      "edited draft survives Escape and reopening",
+      "unchanged check leaves decision in review",
+      "recovered check closes decision at 24 orders / target 30",
+      "decision persists after reload",
+      "phone navigation opens and focuses dashboard link",
+      "hidden mobile sidebar excluded when closed",
+      "header actions wrap on phone/tablet",
+      "primary cards and form text readable"
+    ],
+    "viewportReset": true,
+    "limits": [
+      "Not a WCAG certification or exhaustive device/browser matrix",
+      "Browser extension DOM/screenshot calls failed; native fallback used",
+      "Network timeout behavior verified in a unit test; invalid data and API failures exercised by API tests"
+    ]
+  }
+}

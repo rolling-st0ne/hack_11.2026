@@ -1,0 +1,2404 @@
+{
+  "createdAt": "2026-11-12T12:51:50.577428+00:00",
+  "scope": "License and attribution text only; no executable runtimes or credentials. Canonical acceptance path uses Node local/LAN with CONTOUR_BI=off.",
+  "files": [
+    {
+      "path": "node-26.8.1/LICENSE",
+      "bytes": 157609,
+      "sha256": "5888dbb9a1d2b18f2c3e6c5f6af1b39de658372b402a0577b002777f14c62ace",
+      "source": "Installed Node v26.8.1 distribution LICENSE; upstream https://github.com/nodejs/node/blob/v26.8.1/LICENSE",
+      "version": "26.8.1",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/NOTICE",
+      "bytes": 2400,
+      "sha256": "c02756bcd9fa8191bf0fda4451bc018414dd44ee35bf09922c24377a475e4b5a",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: NOTICE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/aes.md",
+      "bytes": 1444,
+      "sha256": "45c6d4da48325edfbff3dcf71c704e504c057904435ed23c6d57046d551eb69d",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/aes.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/c-libutl.md",
+      "bytes": 1556,
+      "sha256": "bef40679922d6fdfb7e4ddb223ad6722300f6054ba737bbf6188d60fcec517f9",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/c-libutl.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/cldr.md",
+      "bytes": 8790,
+      "sha256": "472e341c36efc1136860ed7a6461a2af4a53ae95d55d1126726340f5ba62b06a",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/cldr.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/icu.md",
+      "bytes": 4147,
+      "sha256": "be23ad20a8231d2241b37fcf401548febd8597de8373f89268882020cb7c8818",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/icu.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/public_suffix.md",
+      "bytes": 17783,
+      "sha256": "861de1e4992a7d28f1de25c73cd50d26a94779ebd749c0643fecfa56442c3429",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/public_suffix.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/siphash.md",
+      "bytes": 8256,
+      "sha256": "5a792b5a74ad2a5f3d6a7ad8b7a841116e58a772c18bc6e392320a365b222c76",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/siphash.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/unicode.md",
+      "bytes": 15098,
+      "sha256": "5194d6760f2e7eccc07804196cc619f84e730fa9d10c0529b71416186f4d12dc",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/unicode.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.base/zlib.md",
+      "bytes": 1010,
+      "sha256": "c9c70c36a1f0325e8788771906202d42ba6ab4205caca44ec0f665707e83226b",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.base/zlib.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.compiler/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.compiler/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.compiler/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.compiler/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.compiler/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.compiler/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.datatransfer/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.datatransfer/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.datatransfer/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.datatransfer/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.datatransfer/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/colorimaging.md",
+      "bytes": 167,
+      "sha256": "04d61e3e8e71dd452ebe52008af5378d9f6640d14578aeb515dc5375973b0189",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/colorimaging.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/freetype.md",
+      "bytes": 30570,
+      "sha256": "e1f43089a3d7f846ac72709ba3f5e3dfe4a07955cbb1f5b580c3c41cf93792dd",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/freetype.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/giflib.md",
+      "bytes": 1689,
+      "sha256": "206aab89ec75968e48a6a1ed6df7d8b9bfb7aea12cbe4c9345d93e5d97460a25",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/giflib.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/harfbuzz.md",
+      "bytes": 3629,
+      "sha256": "5ec7cba7f8e7fc3a089213140aab6fa1b3bd5bf8a91bf8bddb3b8d315fc5f7d0",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/harfbuzz.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/jpeg.md",
+      "bytes": 3474,
+      "sha256": "c1dfb9719a71ad9f861f8728550542d681e25c8ef40e6393606e6e2a0c1d653a",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/jpeg.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/lcms.md",
+      "bytes": 2655,
+      "sha256": "6d409e73a4ce3c25479b4fb01d05fe79c0458bcd1dccc07f72d3e211d64ac8ce",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/lcms.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/libpng.md",
+      "bytes": 7519,
+      "sha256": "f73afb394792f3aeecd959e89487603677a430e56b44eba596d8b572accfd540",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/libpng.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/mesa3d.md",
+      "bytes": 5732,
+      "sha256": "63f4e6f75caebbccb95d903fb43e46ac7111b3624d0a34f146b276d7d9e7b152",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/mesa3d.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/pipewire.md",
+      "bytes": 1479,
+      "sha256": "56a8fb1652c70ac204d13bb52ca4d678162e7d21a97d10209c2a633de8082de0",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/pipewire.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.desktop/xwd.md",
+      "bytes": 1348,
+      "sha256": "1d4ffa93c87f35084b02a7aa90a21084b4019db4fe1003c2e5ce775b4a384f59",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.desktop/xwd.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.instrument/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.instrument/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.instrument/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.instrument/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.instrument/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.instrument/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.logging/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.logging/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.logging/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.logging/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.logging/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.logging/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.management/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.management/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.management/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.management/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.management/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.management/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.management.rmi/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.management.rmi/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.management.rmi/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.management.rmi/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.management.rmi/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.naming/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.naming/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.naming/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.naming/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.naming/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.naming/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.net.http/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.net.http/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.net.http/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.net.http/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.net.http/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.net.http/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.prefs/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.prefs/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.prefs/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.prefs/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.prefs/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.prefs/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.rmi/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.rmi/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.rmi/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.rmi/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.rmi/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.rmi/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.scripting/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.scripting/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.scripting/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.scripting/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.scripting/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.scripting/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.se/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.se/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.se/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.se/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.se/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.se/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.security.jgss/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.security.jgss/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.security.jgss/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.security.jgss/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.security.jgss/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.security.sasl/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.security.sasl/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.security.sasl/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.security.sasl/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.security.sasl/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.smartcardio/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.smartcardio/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.smartcardio/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.smartcardio/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.smartcardio/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.smartcardio/pcsclite.md",
+      "bytes": 2155,
+      "sha256": "3ad4c89f51e0c79170a6e5eaaae1429db25745dbe5a84fc61804caeec2fec54f",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.smartcardio/pcsclite.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.sql/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.sql/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.sql/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.sql/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.sql/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.sql/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.sql.rowset/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.sql.rowset/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.sql.rowset/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.sql.rowset/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.transaction.xa/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.transaction.xa/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.transaction.xa/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.transaction.xa/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/bcel.md",
+      "bytes": 11196,
+      "sha256": "cd578186ad93de46cca29ec8ace2b11f9da751987f3f140e6095c528596cc8c1",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/bcel.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/dom.md",
+      "bytes": 3761,
+      "sha256": "6686e8877667584a3a7c07344baadca1a03e29f677162d87c3c0811e990d1148",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/dom.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/jcup.md",
+      "bytes": 1448,
+      "sha256": "8d5dcfdf50455a3c34c753a98f21e953248af200415a9084e3f102cb6c43b8bf",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/jcup.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/schema10part1.md",
+      "bytes": 2138,
+      "sha256": "b220f891e5bfa3aa4b2a4b34dfab53a291553c2ae0fd0b15a4cb1116d4e97770",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/schema10part1.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/schema10part2.md",
+      "bytes": 2136,
+      "sha256": "2350e35e91866d5ee5bd7ee7c303b3e424bbca335d36c71452588aac494eaa3e",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/schema10part2.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/xalan.md",
+      "bytes": 13477,
+      "sha256": "02bd013fc3f438dbb8fa41fa57888177e015efa6431d37fce6e794c6f353a6a1",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/xalan.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/xerces.md",
+      "bytes": 11848,
+      "sha256": "4a6bf6b367193ee68681cb2d9fed30ffc5d62dd2d477bd62e0271707d71b3244",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/xerces.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/xhtml10.md",
+      "bytes": 2634,
+      "sha256": "9a5cde47073ca80cf59127891420f4aed603eb65070738ad027bb19e76fb9319",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/xhtml10.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/xhtml10schema.md",
+      "bytes": 7521,
+      "sha256": "7bc51d884aaae6ef27551ee78d404ba3116356790da3d06b665679eb2e1cc002",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/xhtml10schema.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/xhtml11.md",
+      "bytes": 3258,
+      "sha256": "4f99a390896f0f55a0b78376de89bfd2ac845713de85e67e37f884b77e0c3122",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/xhtml11.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/xhtml11schema.md",
+      "bytes": 3224,
+      "sha256": "8cd69b1392e286538008f4cb003f85caea3a375c619e697813d820b69857cf74",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/xhtml11schema.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/xmlspec.md",
+      "bytes": 2719,
+      "sha256": "afec263bf5dc67697ee33734ee243f86a878161335ef6298273e4041673b0544",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/xmlspec.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml/xmlxsd.md",
+      "bytes": 1951,
+      "sha256": "498a5fec63509a8f3949983bb6878ac5c95aaf1d5e3679272d93314371aa0211",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml/xmlxsd.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml.crypto/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml.crypto/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml.crypto/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml.crypto/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/java.xml.crypto/santuario.md",
+      "bytes": 11505,
+      "sha256": "d08690d25f660f145c73365d260ed522cd0aace8a0e1396706551b7a1ae8c9a3",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/java.xml.crypto/santuario.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.accessibility/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.accessibility/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.accessibility/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.accessibility/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.charsets/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.charsets/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.charsets/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.charsets/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.charsets/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.crypto.cryptoki/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.crypto.cryptoki/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md",
+      "bytes": 4095,
+      "sha256": "1f36ff1342a581142c858f90064e20633d43529ac82adb85345bd902a14e18b2",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.crypto.cryptoki/pkcs11wrapper.md",
+      "bytes": 2131,
+      "sha256": "371974b1fca3744a3892c7ee1fcc593b8b4281fc218f4cafd2f709e9df5fd81d",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.crypto.cryptoki/pkcs11wrapper.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.dynalink/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.dynalink/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.dynalink/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.dynalink/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.dynalink/dynalink.md",
+      "bytes": 1502,
+      "sha256": "17312591cabee3ef6c34ed8897d92e4e361ba9cea41ec00dcd61a322a8fc2cdb",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.dynalink/dynalink.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.graal.compiler/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.graal.compiler/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.graal.compiler/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.graal.compiler/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.graal.compiler/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.graal.compiler/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.graal.compiler.management/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.graal.compiler.management/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.graal.compiler.management/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.graal.compiler.management/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.graal.compiler.management/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.graal.compiler.management/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.httpserver/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.httpserver/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.httpserver/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.httpserver/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.incubator.vector/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.incubator.vector/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.internal.vm.ci/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.internal.vm.ci/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.jdwp.agent/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.jdwp.agent/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.jfr/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.jfr/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.jfr/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.jfr/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.jfr/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.jsobject/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.jsobject/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.jsobject/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.jsobject/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.localedata/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.localedata/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.localedata/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.localedata/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.localedata/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.localedata/cldr.md",
+      "bytes": 8790,
+      "sha256": "472e341c36efc1136860ed7a6461a2af4a53ae95d55d1126726340f5ba62b06a",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.localedata/cldr.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.localedata/thaidict.md",
+      "bytes": 1346,
+      "sha256": "c326144a2351c9608fa708b5d7d3c5a3da03e82b66479b128e9db4969539824a",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.localedata/thaidict.md; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.management/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.management/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.management/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.management/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.management/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.management/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.management.agent/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.management.agent/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.management.agent/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.management.agent/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.management.jfr/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.management.jfr/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.management.jfr/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.naming.dns/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.naming.dns/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.naming.dns/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.naming.rmi/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.naming.rmi/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.net/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.net/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.net/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.net/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.net/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.net/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.nio.mapmode/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.nio.mapmode/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.sctp/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.sctp/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.sctp/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.sctp/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.sctp/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.security.auth/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.security.auth/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.security.auth/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.security.auth/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.security.jgss/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.security.jgss/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.security.jgss/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.unsupported/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.unsupported/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.unsupported/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.unsupported/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.xml.dom/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.xml.dom/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.xml.dom/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO",
+      "bytes": 2114,
+      "sha256": "a69bce275ba7a3570af6579cb0f55682cd75fedfcd49e0e8e9022270c447c916",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.zipfs/ASSEMBLY_EXCEPTION",
+      "bytes": 1514,
+      "sha256": "75292f03bf23d3db7c985aecc191029b93883200721ed23ed34a2e601463df33",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.zipfs/ASSEMBLY_EXCEPTION; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "temurin-25.0.5+8/legal/jdk.zipfs/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726",
+      "source": "Installed Temurin 25.0.5+8 macOS aarch64 JRE: legal/jdk.zipfs/LICENSE; upstream https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "version": "25.0.5+8",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "copied from installed distribution"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/NOTICE.txt",
+      "bytes": 629,
+      "sha256": "09ccc0e09799a84e52d230e40e63db1c862a79fb804d7da693214a28120984c6",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/NOTICE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/LICENSE-LGPLv2.1.txt",
+      "bytes": 26434,
+      "sha256": "36b6d3fa47916943fd5fec313c584784946047ec1337a78b440e5992cb595f89",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/LICENSE-LGPLv2.1.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/LICENSE.txt",
+      "bytes": 25920,
+      "sha256": "809492712fc38782154f124d51f95ea222ce3e144a943c243eccfe3149b5233c",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/LICENSE-GPLv2.txt",
+      "bytes": 17872,
+      "sha256": "e3f45bafa5633422e619c7cefc7b0f4a5a4ddf4427c98e3a9ec31130a6f25de7",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/LICENSE-GPLv2.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/license-backend-third-party.txt",
+      "bytes": 2190516,
+      "sha256": "5633d7806af2be57d61ba42d397e95c72187c51dd3e41bd00f6eec65b7a1d8ab",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/license-backend-third-party.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/license-frontend-third-party.txt",
+      "bytes": 3434034,
+      "sha256": "b518e68231b4650975a9f326eeb42a2c6fae0734ecf9d2a2e825b7993ec11932",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/license-frontend-third-party.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/LICENSE-UnboundID-LDAPSDK.txt",
+      "bytes": 5823,
+      "sha256": "2ec1a663d124528fc438ee6747b6ade51d0ff16c26e0ff31e757d3d0bc1ed5fb",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/LICENSE-UnboundID-LDAPSDK.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/license/NOTICE",
+      "bytes": 890,
+      "sha256": "7832ea5e9c3720bae0436725358f144519c64770f5e0ae6fc23fe023048ec13b",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/license/NOTICE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/license/LICENSE",
+      "bytes": 11560,
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/license/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/license/LICENSE.sax.txt",
+      "bytes": 802,
+      "sha256": "add61f525baf71c63a6f96cc10976efecfe3ad111036048d6e3096530b709731",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/license/LICENSE.sax.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/NOTICE",
+      "bytes": 26854,
+      "sha256": "f14518f54dfb7207256d6a99027925236ce3e5fb81ea31b20b5fd6b0cf4b6fce",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/NOTICE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/NOTICE.txt",
+      "bytes": 58685,
+      "sha256": "1d7f510c13aa98eb1f2888a8e507d6676c087cc28e11d26cc75748ee25727a65",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/NOTICE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/FastDoubleParser-LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/FastDoubleParser-LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/Schubfach-LICENSE",
+      "bytes": 1064,
+      "sha256": "12d39a6615219d73202300715e365bec2b958f858d1e837c8f2dace57f905969",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/Schubfach-LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/FastDoubleParser-NOTICE",
+      "bytes": 1999,
+      "sha256": "0fe84bf6f8990a28699a23353e1d30b3ed87e76ebe3db337cbe21c4dcbd68663",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/FastDoubleParser-NOTICE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/THIRD-PARTY-LICENSES",
+      "bytes": 1321,
+      "sha256": "5be1f67a4d62692cc2fc8b81a71088943fc4c1462bd76fd2f04bc0e965ca6d53",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/THIRD-PARTY-LICENSES",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/thirdparty-LICENSE",
+      "bytes": 3047,
+      "sha256": "6e0e5b6e6389568c1669163fdf40cee2143be58960be0a4e2f1428805505170d",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/thirdparty-LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/NOTICE.md",
+      "bytes": 8639,
+      "sha256": "176d95851e9894b4a183e08fb59f037085b71794077523660d9354775a84b774",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/NOTICE.md",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/NOTICE-binary",
+      "bytes": 192,
+      "sha256": "137d7002b60aadfd602b48b8d9b8de42b7cd2e5f5acb219e0c586a5bcfb1d883",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/NOTICE-binary",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/FastDoubleParser-ThirdParty-LICENSE",
+      "bytes": 4578,
+      "sha256": "dbc36f9422a40d58d1a214080583667cfd37d61c2fae1657d981edda2a60727f",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/FastDoubleParser-ThirdParty-LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/jsoup/LICENSE",
+      "bytes": 1102,
+      "sha256": "f5d724c5818010c61bff2e177f5b6452434bc054807522bf241940bca8b1d6b1",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/jsoup/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/python-sources/sqlglot-30.20.0.dist-info/licenses/LICENSE",
+      "bytes": 1065,
+      "sha256": "b0bf909b472ddf9bd4eab30f6e6fd8b33bf3997ce038b882fe0663f291958d2d",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/python-sources/sqlglot-30.20.0.dist-info/licenses/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/maven/org.xerial/sqlite-jdbc/LICENSE",
+      "bytes": 11560,
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/maven/org.xerial/sqlite-jdbc/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/maven/org.xerial/sqlite-jdbc/LICENSE.zentus",
+      "bytes": 1312,
+      "sha256": "89167dab92289c7e5e2b65b044f0856b703d05e5d5e35c3548e73d9c7d2f5048",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/maven/org.xerial/sqlite-jdbc/LICENSE.zentus",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/tigris/tigris/LICENSE",
+      "bytes": 11220,
+      "sha256": "f8b7f52c48b42c018db1617cc2fc361eeaae632c84461e3dd3a0f77d1a6431b7",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/tigris/tigris/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/camel-snake-kebab/camel-snake-kebab/LICENSE.txt",
+      "bytes": 11319,
+      "sha256": "04132df1d27e9f0062df1503f88af2cc4ce4e7c75d0fe6eea5eda636bb2920bb",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/camel-snake-kebab/camel-snake-kebab/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/clj-bom/clj-bom/LICENSE",
+      "bytes": 11219,
+      "sha256": "58776870692319186d2cb9e4f11dfad62f864dce91983579dd79df222a324f57",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/clj-bom/clj-bom/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/com.draines/postal/LICENSE",
+      "bytes": 1065,
+      "sha256": "1f395ba14ede9545096d97f3b48e8fb0fa29e17992f4169f72b5079e76de9e1f",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/com.draines/postal/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/dk.ative/docjure/LICENSE",
+      "bytes": 1096,
+      "sha256": "86b673f1efb36c7ba6119cb4fcc3d17c624391f27b1adddb97fce066b6e58c68",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/dk.ative/docjure/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/clout/clout/LICENSE.html",
+      "bytes": 12917,
+      "sha256": "d0d35c5fb45696fcaa98858f6c1f1cf0d41400302f4adb966eb9a54fa9b9a226",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/clout/clout/LICENSE.html",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/clj-commons/iapetos/LICENSE",
+      "bytes": 1071,
+      "sha256": "2b6ca51e458119ba596a6baed2149953cb48d9b29257f6f8aec08bf68004a494",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/clj-commons/iapetos/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/junegunn/grouper/LICENSE",
+      "bytes": 1080,
+      "sha256": "3e793fd51f82a0822c9eaaced4c59f033646154bfb7c1ec23f3ee69d57c352ad",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/junegunn/grouper/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/dev.weavejester/medley/LICENSE.txt",
+      "bytes": 11585,
+      "sha256": "ba4c1321665d624f1739b1e739b8688064a13526662c054602a787d5ab0a8d5a",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/dev.weavejester/medley/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/hiccup/hiccup/LICENSE.txt",
+      "bytes": 11585,
+      "sha256": "ba4c1321665d624f1739b1e739b8688064a13526662c054602a787d5ab0a8d5a",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/hiccup/hiccup/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/metabase/throttle/LICENSE.txt",
+      "bytes": 1485,
+      "sha256": "c28c73abf7d2e3bdad8c41e9658e69ec6be2650292a74d146ad50da5d16b7849",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/metabase/throttle/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/metabase/connection-pool/LICENSE",
+      "bytes": 14199,
+      "sha256": "721c2da257578bace3332b14d8ea06643d7d26753e7ef25a837b4e904edc0bf5",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/metabase/connection-pool/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/clojure.java-time/clojure.java-time/LICENSE",
+      "bytes": 1081,
+      "sha256": "033cb4d6adaa40327f7a43e01bcdaf75a5b1c90b8878fbaf9600ba2f310252e1",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/clojure.java-time/clojure.java-time/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/amalloy/ring-gzip-middleware/LICENSE",
+      "bytes": 1060,
+      "sha256": "87fd04f2a06c2e1b2024ec5f439de3d496db58552732623156c777288af0241d",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/amalloy/ring-gzip-middleware/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/instaparse/instaparse/LICENSE",
+      "bytes": 11432,
+      "sha256": "9ea78a4aeb11ee74b127087ba44110ea32f18930ee731931b8a11440c46f124a",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/instaparse/instaparse/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/pretty/pretty/LICENSE",
+      "bytes": 14199,
+      "sha256": "721c2da257578bace3332b14d8ea06643d7d26753e7ef25a837b4e904edc0bf5",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/pretty/pretty/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/metosin/spec-tools/LICENSE",
+      "bytes": 14198,
+      "sha256": "0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/metosin/spec-tools/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/metosin/schema-tools/LICENSE",
+      "bytes": 14198,
+      "sha256": "0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/metosin/schema-tools/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/ring/ring-codec/LICENSE",
+      "bytes": 1105,
+      "sha256": "b437003c7191642ea21ff78de3c7f191814eec00c3f29e273423392e7424d6fe",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/ring/ring-codec/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/insn/insn/LICENSE",
+      "bytes": 11514,
+      "sha256": "22e0ff3e946377a65cede42300b894ab228488194b1474412bb305a68327b4f0",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/insn/insn/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/borkdude/edamame/LICENSE",
+      "bytes": 11514,
+      "sha256": "cc07bd2bd6ba843a9a2865ed891d5a3b5835a64bab6fa90945403ee53965d46f",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/borkdude/edamame/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/borkdude/dynaload/LICENSE",
+      "bytes": 11514,
+      "sha256": "cc07bd2bd6ba843a9a2865ed891d5a3b5835a64bab6fa90945403ee53965d46f",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/borkdude/dynaload/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/noencore/noencore/LICENSE",
+      "bytes": 11514,
+      "sha256": "cc07bd2bd6ba843a9a2865ed891d5a3b5835a64bab6fa90945403ee53965d46f",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/noencore/noencore/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/org.clj-commons/hickory/LICENSE",
+      "bytes": 11287,
+      "sha256": "bbb282151f8c001836700f9d73d953e9c5fb5358f6b17ac9355145a012257af9",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/org.clj-commons/hickory/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/org.clj-commons/claypoole/LICENSE",
+      "bytes": 11354,
+      "sha256": "e5cb3b8f041bd8f3e9bf11ed56287401a5b1bd03c22633b917815ea9f7e6bccb",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/org.clj-commons/claypoole/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/babashka/fs/LICENSE",
+      "bytes": 11514,
+      "sha256": "cc07bd2bd6ba843a9a2865ed891d5a3b5835a64bab6fa90945403ee53965d46f",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/babashka/fs/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/org.flatland/ordered/LICENSE",
+      "bytes": 11252,
+      "sha256": "a4fd53f99241374faae88023ff40e203b7b07c58af75cf91d547b9f50737442e",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/org.flatland/ordered/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/selmer/selmer/LICENSE",
+      "bytes": 11514,
+      "sha256": "cc07bd2bd6ba843a9a2865ed891d5a3b5835a64bab6fa90945403ee53965d46f",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/selmer/selmer/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/compojure/compojure/LICENSE.txt",
+      "bytes": 11585,
+      "sha256": "ba4c1321665d624f1739b1e739b8688064a13526662c054602a787d5ab0a8d5a",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/compojure/compojure/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/clj-http/clj-http/LICENSE",
+      "bytes": 1080,
+      "sha256": "fd4b1a50c787260fadb313a2a0cd89ca53f5edafb420cba0427243498b06d645",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/clj-http/clj-http/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/better-cond/better-cond/LICENSE",
+      "bytes": 11432,
+      "sha256": "0e98c5be2e2d9fbe3919608b3fc96fa26345cba507e4cd797350e699da9f429f",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/better-cond/better-cond/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/com.taoensso/encore/LICENSE.txt",
+      "bytes": 11514,
+      "sha256": "22e0ff3e946377a65cede42300b894ab228488194b1474412bb305a68327b4f0",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/com.taoensso/encore/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/com.taoensso/nippy/LICENSE.txt",
+      "bytes": 11514,
+      "sha256": "22e0ff3e946377a65cede42300b894ab228488194b1474412bb305a68327b4f0",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/com.taoensso/nippy/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/com.taoensso/truss/LICENSE.txt",
+      "bytes": 11514,
+      "sha256": "22e0ff3e946377a65cede42300b894ab228488194b1474412bb305a68327b4f0",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/com.taoensso/truss/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/cheshire/cheshire/LICENSE",
+      "bytes": 1062,
+      "sha256": "3b0264817410d6d43bf78aebc8d173b758afb546992c5a06f12ff4180f3736cd",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/cheshire/cheshire/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/prismatic/schema/LICENSE.md",
+      "bytes": 31979,
+      "sha256": "721fc8dd7fb2419c5360287b591b918084f350cd17d71130a942bc0f81546ea3",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/prismatic/schema/LICENSE.md",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/medley/medley/LICENSE.txt",
+      "bytes": 11585,
+      "sha256": "ba4c1321665d624f1739b1e739b8688064a13526662c054602a787d5ab0a8d5a",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/medley/medley/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/META-INF/leiningen/user-agent/user-agent/LICENSE",
+      "bytes": 11218,
+      "sha256": "a5cb01efb6648a83f1f466ea82c32bb52dc4c70ab27d0b70f0c7407d8fc3a815",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/META-INF/leiningen/user-agent/user-agent/LICENSE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/org/apache/batik/apps/svgbrowser/resources/LICENSE.icons.txt",
+      "bytes": 14800,
+      "sha256": "e52d7bc0f0d49bf74c85dfa1537a1ce1ee2df5c33f1fa68d55eb51e2f53e72a5",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/org/apache/batik/apps/svgbrowser/resources/LICENSE.icons.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/com/facebook/presto/jdbc/internal/okhttp3/internal/publicsuffix/NOTICE",
+      "bytes": 218,
+      "sha256": "8a9c58fbded5ea3474315e4a9824ca8b1486098a1a03e897e0b19419d5e1876a",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/com/facebook/presto/jdbc/internal/okhttp3/internal/publicsuffix/NOTICE",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "extracted verbatim from installed JAR"
+    },
+    {
+      "path": "upstream/metabase-0.65.3-AGPL.txt",
+      "bytes": 37265,
+      "sha256": "cf2280d8efed3cc94ce564a0a65a5d5990093b4a6807ba4510052fcb1f77e23a",
+      "source": "https://raw.githubusercontent.com/metabase/metabase/v0.65.3/LICENSE-AGPL.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "downloaded from official upstream during this task"
+    },
+    {
+      "path": "upstream/metabase-0.65.3-LICENSE.txt",
+      "bytes": 855,
+      "sha256": "da3c9b0046ee968890e5f973e69a09c6e8fe7911a9bae3cb17d5109b5c7d8d75",
+      "source": "https://raw.githubusercontent.com/metabase/metabase/v0.65.3/LICENSE.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "downloaded from official upstream during this task"
+    },
+    {
+      "path": "upstream/metabase-0.65.3-EMBEDDING.txt",
+      "bytes": 8877,
+      "sha256": "591b6357d34a865dee8e0dba528089fe5454c526114f6ccc8896943e7a680592",
+      "source": "https://raw.githubusercontent.com/metabase/metabase/v0.65.3/LICENSE-EMBEDDING.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "downloaded from official upstream during this task"
+    },
+    {
+      "path": "upstream/manrope-OFL-1.1.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
+      "version": "OFL 1.1; file snapshot 2026-11-12T12:51:50.577428+00:00",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "downloaded from official upstream during this task"
+    },
+    {
+      "path": "upstream/node-22.13.0-LICENSE.txt",
+      "bytes": 140397,
+      "sha256": "9d72cce9b104ecb67feb8af38618511685190ae5a119cc0488ecae66b221000d",
+      "source": "https://raw.githubusercontent.com/nodejs/node/v22.13.0/LICENSE",
+      "version": "22.13.0",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "downloaded from official upstream during this task"
+    },
+    {
+      "path": "upstream/docker-node-LICENSE.txt",
+      "bytes": 1119,
+      "sha256": "782e17d54343aa3f6db60430015692b6540089b3ec5b78274981ada2d3c3c423",
+      "source": "https://raw.githubusercontent.com/nodejs/docker-node/main/LICENSE",
+      "version": "main file snapshot 2026-11-12T12:51:50.577428+00:00",
+      "recordedAt": "2026-11-12T12:51:50.577428+00:00",
+      "operation": "downloaded from official upstream during this task"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/license/LICENSE.dom-documentation.txt",
+      "bytes": 4010,
+      "sha256": "a6dbf46a8a820e353a5ff9e559b940f2409892d853e0cc4a31dd4a54a3688a8a",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/license/LICENSE.dom-documentation.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:53:37.192248+00:00",
+      "operation": "extracted byte-for-byte from installed JAR; original text encoding preserved"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/license/LICENSE.sac.html",
+      "bytes": 3908,
+      "sha256": "69f46f492f7e33d21c5ef3261fa4c90123357546784e00b44a1f8daf05a8b96e",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/license/LICENSE.sac.html",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:53:37.192248+00:00",
+      "operation": "extracted byte-for-byte from installed JAR; original text encoding preserved"
+    },
+    {
+      "path": "metabase-0.65.3/bundled/license/LICENSE.dom-software.txt",
+      "bytes": 3362,
+      "sha256": "4cb80054a604d9fe512e8ff1152db4032ae70fe362b83e5f17c104481a44c8fa",
+      "source": "https://downloads.metabase.com/v0.65.3/metabase.jar!/license/LICENSE.dom-software.txt",
+      "version": "0.65.3",
+      "recordedAt": "2026-11-12T12:53:37.192248+00:00",
+      "operation": "extracted byte-for-byte from installed JAR; original text encoding preserved"
+    },
+    {
+      "path": "upstream/natural-earth-terms.html",
+      "bytes": 38013,
+      "sha256": "2bbe20345b90ae227cd306c2981c532dd4e170edfd22d0755202d23c1fcc0f05",
+      "source": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "version": "notice webpage snapshot",
+      "recordedAt": "2026-11-12T12:53:37.192248+00:00",
+      "operation": "downloaded official notice during this task"
+    },
+    {
+      "path": "upstream/sqlite-copyright.html",
+      "bytes": 8351,
+      "sha256": "44ca9f793055c8e32fc65f65a4f5bcf813a33f5bdaaa084067dd617a4ed3cc70",
+      "source": "https://www.sqlite.org/copyright.html",
+      "version": "notice webpage snapshot",
+      "recordedAt": "2026-11-12T12:53:37.192248+00:00",
+      "operation": "downloaded official notice during this task"
+    }
+  ],
+  "upstreamComponents": [
+    {
+      "component": "Metabase OSS",
+      "version": "0.65.3",
+      "verifiedVersionProperties": "tag=v0.65.3\nhash=0c644f3\ndate=2026-11-03",
+      "jarSha256": "5230dea520f341bf60250f59e882e2cf69c958f7bed42eec05cb4b7c61cf6bf5",
+      "retainedNoticeEntries": 67,
+      "backendNoticeEntries": 418,
+      "frontendNoticeEntries": 1883
+    },
+    {
+      "component": "Node.js minimum runtime",
+      "version": "22.13.0",
+      "source": "https://github.com/nodejs/node/tree/v22.13.0"
+    },
+    {
+      "component": "Node.js runtime used for local verification",
+      "version": "26.8.1",
+      "source": "https://github.com/nodejs/node/tree/v26.8.1"
+    },
+    {
+      "component": "Temurin JRE",
+      "version": "25.0.5+8",
+      "platform": "macOS aarch64",
+      "source": "https://github.com/adoptium/temurin25-binaries/releases/tag/jdk-25.0.5%2B8",
+      "releaseFields": [
+        "IMPLEMENTOR_VERSION=\"Temurin-25.0.5+8\"",
+        "JAVA_VERSION=\"25.0.5\"",
+        "JAVA_VERSION_DATE=\"2026-10-20\"",
+        "OS_ARCH=\"aarch64\"",
+        "OS_NAME=\"Darwin\""
+      ]
+    },
+    {
+      "component": "Manrope",
+      "version": "Google Fonts stylesheet-selected version; not pinned and not bundled as font binaries",
+      "source": "https://github.com/google/fonts/tree/main/ofl/manrope"
+    },
+    {
+      "component": "Natural Earth admin-1",
+      "version": "Source dataset revision was not recorded by original import; derived geometry present in server/regions.mjs",
+      "source": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_admin_1_states_provinces.geojson",
+      "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    {
+      "component": "Optional Node Docker base image",
+      "version": "node:24-bookworm-slim (mutable tag; exact digest not inspected)",
+      "source": "https://github.com/nodejs/docker-node"
+    },
+    {
+      "component": "Optional Metabase Docker image",
+      "version": "metabase/metabase:v0.65.3 (exact image digest not inspected)",
+      "source": "https://github.com/metabase/metabase/tree/v0.65.3"
+    },
+    {
+      "component": "SQLite embedded in locally verified Node",
+      "version": "3.53.4",
+      "source": "https://www.sqlite.org/copyright.html",
+      "versionEvidence": "node -p process.versions.sqlite"
+    },
+    {
+      "component": "Derived Natural Earth geometry",
+      "source": "server/regions.mjs",
+      "sha256": "c013b4c301e08df29fcfe8d8f4d43cc7d1d345b99ed3e8637bd4ccd345ee89b3",
+      "role": "source identification only, geometry not copied into license directory"
+    }
+  ]
+}
