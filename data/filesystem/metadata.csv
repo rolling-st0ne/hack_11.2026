@@ -1,2 +1,2 @@
-schemaVersion,generatedAt,lastUpdated
-3,2026-11-11T14:52:43.644Z,2026-11-11T14:51:43.644Z
+schemaVersion,sourceVersion,reportingVersion,sourceUpdatedAt,sourceTimes,generatedAt,lastUpdated
+4,0,4,2026-11-12T12:39:58.545Z,"{""orders.csv"":""2026-11-12T12:39:58.545Z"",""customers.csv"":""2026-11-12T12:39:58.545Z"",""interactions.csv"":""2026-11-12T12:39:58.545Z"",""staff.csv"":""2026-11-12T12:39:58.545Z"",""performance.csv"":""2026-11-12T12:39:58.545Z"",""employees.csv"":""2026-11-12T12:39:58.545Z"",""responses.csv"":""2026-11-12T12:39:58.545Z"",""reviews.csv"":""2026-11-12T12:39:58.545Z"",""finance_entries.csv"":""2026-11-12T12:39:58.545Z"",""shifts.csv"":""2026-11-12T12:39:58.545Z""}",2026-11-12T12:39:58.545Z,2026-11-12T12:38:58.545Z

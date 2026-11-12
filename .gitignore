@@ -4,3 +4,11 @@ dist/
 .DS_Store
 *.tar.gz
 *.tgz
+
+.env
+.env.*
+!.env.example
+audit/2026-11-12/
+audit/2026-11-12-strict/
+
+node_modules

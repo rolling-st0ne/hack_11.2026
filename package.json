@@ -4,12 +4,26 @@
   "private": true,
   "type": "module",
   "description": "Track 1: unified operations, decisions, and verification",
-  "engines": { "node": ">=22.13" },
+  "engines": {
+    "node": ">=22.13"
+  },
   "scripts": {
-    "dev": "node --watch src/server.mjs",
-    "start": "node src/server.mjs",
+    "dev": "node scripts/start.mjs",
+    "start": "node scripts/start.mjs",
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
-    "seed": "node scripts/reseed.mjs"
+    "seed": "node scripts/reseed.mjs",
+    "start:server": "node server/server.mjs",
+    "start:client": "node client/dev-server.mjs",
+    "start:background": "node scripts/start.mjs --background",
+    "stop": "node scripts/stop.mjs",
+    "test:integration": "node scripts/smoke-local.mjs",
+    "address": "node scripts/address.mjs",
+    "bi:install": "node scripts/metabase-install.mjs",
+    "bi:start": "node scripts/metabase-runtime.mjs start",
+    "bi:stop": "node scripts/metabase-runtime.mjs stop",
+    "bi:setup": "node scripts/metabase-setup.mjs",
+    "test:bi": "node scripts/smoke-metabase.mjs",
+    "test:acceptance": "node scripts/acceptance.mjs"
   }
 }

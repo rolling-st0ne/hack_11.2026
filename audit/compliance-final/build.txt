@@ -1,0 +1,6 @@
+
+> fotoprint-control@1.0.0 build
+> node scripts/build.mjs
+
+Built Worker + embedded assets + D1 migrations.
+Worker smoke passed: assets, authentication, 18 KPIs, markets, saved dashboard, server permissions.
