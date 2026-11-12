@@ -12,3 +12,6 @@ audit/2026-11-12/
 audit/2026-11-12-strict/
 
 node_modules
+
+# Generated release archives and receipts
+/submission/output/
