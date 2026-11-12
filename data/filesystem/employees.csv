@@ -1,0 +1,8 @@
+id,name,department,isAgent
+mikhail,Михаил Козлов,books,false
+anna,Анна Смирнова,books,false
+daria,Дарья Соколова,photo,false
+olga,Ольга Миронова,photo,false
+igor,Игорь Петров,gifts,false
+pavel,Павел Орлов,gifts,false
+mary,Mary,all,true

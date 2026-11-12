@@ -1,0 +1,9 @@
+{
+  "verifiedAt": "2026-11-12T12:54:05.876483+00:00",
+  "manifestFilesVerified": 259,
+  "localMarkdownLinksVerified": 16,
+  "symlinks": 0,
+  "runtimeBinaries": 0,
+  "failures": [],
+  "scope": "Only THIRD-PARTY-NOTICES.md and licenses/ created; source runtime/application files not modified."
+}

@@ -1,0 +1,5 @@
+
+> fotoprint-control@1.0.0 build
+> node scripts/build.mjs
+
+Built Worker + embedded assets + D1 migrations.

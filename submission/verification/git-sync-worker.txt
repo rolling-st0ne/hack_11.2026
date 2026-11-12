@@ -1,0 +1,1 @@
+Worker smoke passed: assets, authentication, 22 KPIs, markets, saved dashboard, server permissions.

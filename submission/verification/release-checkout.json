@@ -1,0 +1,13 @@
+{
+  "layout": "application at repository root",
+  "build": "pass",
+  "workerSmoke": "pass",
+  "acceptance": "pass",
+  "readyMs": 739,
+  "totalMs": 3088,
+  "roles": [
+    "executive",
+    "maxim"
+  ],
+  "persistenceAfterRestart": true
+}

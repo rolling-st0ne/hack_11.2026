@@ -1,0 +1,17 @@
+{
+  "slides": 6,
+  "structure": [
+    "problem",
+    "solution",
+    "advantage: source",
+    "advantage: verification",
+    "advantage: access",
+    "team"
+  ],
+  "language": "ru",
+  "sha256": "ff7c99e7b5641409d447df94a480517b56b08fac0a24c3da0e72fcf5f6a1c53b",
+  "teamFacts": "User-provided; no roles or credentials invented",
+  "visualReview": "All six final slide renders inspected individually",
+  "mediaEmbedded": true,
+  "nativePowerPointVerified": false
+}

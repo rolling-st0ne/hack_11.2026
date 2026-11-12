@@ -1,0 +1,24 @@
+{
+  "surface": "Native Chrome",
+  "origin": "http://127.0.0.1:3310",
+  "role": "executive",
+  "checks": [
+    "password login",
+    "dashboard and 18 KPI labels",
+    "6-12 November control period",
+    "open revenue metric",
+    "Metabase source and connected status",
+    "formula, 220-row sample and timestamps visible"
+  ],
+  "observed": {
+    "revenueBYN": 81563,
+    "orders": 220,
+    "source": "Metabase",
+    "sourceStatus": "connected"
+  },
+  "businessRecordsChanged": false,
+  "fullTimedRehearsal": false,
+  "otherPhysicalDevice": false,
+  "screenshotPublished": false,
+  "screenshotNote": "Private screenshot retained locally; browser chrome not included in repository"
+}

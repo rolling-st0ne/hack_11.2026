@@ -1,0 +1,48 @@
+{
+  "criterion": "4.5:1 normal text for explicit primary palette pairs",
+  "results": [
+    {
+      "theme": "light",
+      "name": "muted",
+      "foreground": "#425d50",
+      "background": "#f3faf5",
+      "ratio": 6.8
+    },
+    {
+      "theme": "light",
+      "name": "body",
+      "foreground": "#193c2b",
+      "background": "#f3faf5",
+      "ratio": 11.5
+    },
+    {
+      "theme": "light",
+      "name": "primary action",
+      "foreground": "#ffffff",
+      "background": "#116b48",
+      "ratio": 6.52
+    },
+    {
+      "theme": "dark",
+      "name": "muted",
+      "foreground": "#bdd6c9",
+      "background": "#203831",
+      "ratio": 8.15
+    },
+    {
+      "theme": "dark",
+      "name": "body",
+      "foreground": "#e3f4e9",
+      "background": "#203831",
+      "ratio": 11
+    },
+    {
+      "theme": "dark",
+      "name": "primary action",
+      "foreground": "#ffffff",
+      "background": "#116b48",
+      "ratio": 6.52
+    }
+  ],
+  "scope": "Static palette calculation; visual responsive and keyboard checks are recorded separately."
+}

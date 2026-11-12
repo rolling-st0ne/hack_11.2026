@@ -1,0 +1,32 @@
+
+> fotoprint-control@1.0.0 test:acceptance
+> node scripts/acceptance.mjs
+
+{
+  "readyMs": 814,
+  "maxim": {
+    "actor": "maxim",
+    "kpis": 9,
+    "departments": [
+      "photo"
+    ]
+  },
+  "executive": {
+    "actor": "elena",
+    "kpis": 22,
+    "departments": [
+      "books",
+      "photo",
+      "gifts"
+    ]
+  },
+  "flow": {
+    "taskId": "DEC-022",
+    "status": "done",
+    "checkValue": 0
+  },
+  "persistenceAfterRestart": true,
+  "totalMs": 3856,
+  "uiTest": false,
+  "metabaseTest": false
+}

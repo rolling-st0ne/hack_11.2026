@@ -1,0 +1,3 @@
+// Explicit critical thresholds; ordinary goal misses remain separate from critical alerts.
+export const CRITICAL_RULES={moderation:{above:30},queue:{above:30},delivery:{below:90},support:{below:90},defects:{above:4},production:{above:100},staffing:{below:70}};
+export function criticalFromKpis(kpis){return kpis.flatMap(k=>{const r=CRITICAL_RULES[k.id];if(!r||!Number.isFinite(k.raw)||k.sourceError)return [];const hit=r.above!==undefined?k.raw>r.above:k.raw<r.below;return hit?[{metricId:k.id,label:k.label,value:k.raw,unit:k.unit,threshold:r.above??r.below,rule:`Критический порог: ${r.above!==undefined?'>':'<'} ${r.above??r.below} ${k.unit}`,source:k.source,sourceAt:k.sourceAt}]:[];});}

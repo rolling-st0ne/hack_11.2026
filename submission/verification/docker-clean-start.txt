@@ -1,0 +1,83 @@
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 67B
+#1 transferring dockerfile: 69B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 72B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:24-bookworm-slim
+#3 DONE 0.0s
+
+#4 [ 1/10] FROM docker.io/library/node:24-bookworm-slim
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 325.73kB 0.1s done
+#5 DONE 0.1s
+
+#6 [ 2/10] WORKDIR /app
+#6 CACHED
+
+#7 [ 3/10] COPY --chown=node:node package.json ./
+#7 CACHED
+
+#8 [ 4/10] COPY --chown=node:node server ./server
+#8 DONE 0.1s
+
+#9 [ 5/10] COPY --chown=node:node client ./client
+#9 DONE 0.2s
+
+#10 [ 6/10] COPY --chown=node:node scripts ./scripts
+#10 DONE 0.1s
+
+#11 [ 7/10] COPY --chown=node:node data/filesystem ./data/filesystem
+#11 DONE 0.1s
+
+#12 [ 8/10] COPY --chown=node:node licenses ./licenses
+#12 DONE 0.2s
+
+#13 [ 9/10] COPY --chown=node:node THIRD-PARTY-NOTICES.md ./
+#13 DONE 0.0s
+
+#14 [10/10] RUN mkdir -p /app/.data /metabase-source     && chown node:node /app/.data /metabase-source
+#14 DONE 0.4s
+
+#15 exporting to image
+#15 exporting layers
+#15 exporting layers 0.4s done
+#15 writing image sha256:5323ff6e98f145a78a9d633dcaf6ecf6b2a0eb83b975c0168e1e2fa58ca9621f
+#15 writing image sha256:5323ff6e98f145a78a9d633dcaf6ecf6b2a0eb83b975c0168e1e2fa58ca9621f 0.0s done
+#15 naming to docker.io/library/fotoprint-app:local 0.0s done
+#15 DONE 0.5s
+ Network fotoprint-presentation_default  Creating
+ Network fotoprint-presentation_default  Created
+ Volume "fotoprint-presentation_app-data"  Creating
+ Volume "fotoprint-presentation_app-data"  Created
+ Volume "fotoprint-presentation_analytics-data"  Creating
+ Volume "fotoprint-presentation_analytics-data"  Created
+ Volume "fotoprint-presentation_metabase-data"  Creating
+ Volume "fotoprint-presentation_metabase-data"  Created
+ Container fotoprint-presentation-storage-init-1  Creating
+ Container fotoprint-presentation-storage-init-1  Created
+ Container fotoprint-presentation-metabase-1  Creating
+ Container fotoprint-presentation-metabase-1  Created
+ Container fotoprint-presentation-app-1  Creating
+ Container fotoprint-presentation-app-1  Created
+ Container fotoprint-presentation-storage-init-1  Starting
+ Container fotoprint-presentation-storage-init-1  Started
+ Container fotoprint-presentation-storage-init-1  Waiting
+ Container fotoprint-presentation-storage-init-1  Exited
+ Container fotoprint-presentation-metabase-1  Starting
+ Container fotoprint-presentation-metabase-1  Started
+ Container fotoprint-presentation-metabase-1  Waiting
+ Container fotoprint-presentation-metabase-1  Healthy
+ Container fotoprint-presentation-app-1  Starting
+ Container fotoprint-presentation-app-1  Started
+ Container fotoprint-presentation-storage-init-1  Waiting
+ Container fotoprint-presentation-metabase-1  Waiting
+ Container fotoprint-presentation-app-1  Waiting
+ Container fotoprint-presentation-storage-init-1  Exited
+ Container fotoprint-presentation-metabase-1  Healthy
+ Container fotoprint-presentation-app-1  Healthy

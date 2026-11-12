@@ -1,0 +1,23 @@
+{
+  "slides": 6,
+  "unchangedSlides": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "team": [
+    "Владислав Лобацевич",
+    "Арсений Зуевский",
+    "Марк Скоромец",
+    "Тимофей Потапенко"
+  ],
+  "photoAssignments": "Explicitly provided by user",
+  "equalPortraitFrames": true,
+  "specialExperienceBlockRemoved": true,
+  "markPhotoPhoneInterfaceRemoved": true,
+  "sha256": "00b4b349a4ce2e0362bcdd569be9296a9d2e8ee1ee155b9b4d61c1d43122d4ef",
+  "visualReview": "Team slide inspected at full size; prior five slide renders identical",
+  "nativePowerPointVerified": false
+}

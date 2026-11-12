@@ -1,0 +1,1361 @@
+Apache Hadoop Third-party Libs
+Copyright 2020 and onwards The Apache Software Foundation.
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+=============================================================================
+= NOTICE file corresponding to section 4d of the Apache License Version 2.0 =
+=============================================================================
+This product includes software developed by
+Joda.org (https://www.joda.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+Apache Commons Codec
+Copyright 2002-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+Apache Commons Compress
+Copyright 2002-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+Apache Commons Lang
+Copyright 2001-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+Apache Commons Validator
+Copyright 2002-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+
+                            The UADetector Project
+                            ======================
+
+Please visit the UADetector web site for more information:
+
+  * http://uadetector.sourceforge.net/
+
+Copyright 2012 André Rouél
+
+André Rouél licenses this product to you under the Apache License, version 2.0
+(the "License"); you may not use this product except in compliance with the
+License. You may obtain a copy of the License at:
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations under the License.
+
+Also, please refer to each LICENSE.<component>.txt file, which is located in
+the same directory as this file, for the license terms of the components that
+this product depends on.
+
+-------------------------------------------------------------------------------
+This product contains a version of Jaroslav Mallat's UAS Data, which can be
+obtained at:
+
+  * LICENSE:
+    * LICENSE.uas.txt (CC BY 3.0)
+  * HOMEPAGE:
+    * http://user-agent-string.info/
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+=============================================================================
+= NOTICE file corresponding to section 4d of the Apache License Version 2.0 =
+=============================================================================
+This product includes software developed by
+Joda.org (https://www.joda.org/).
+
+Apache Hadoop
+Copyright 2006 and onwards The Apache Software Foundation.
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Export Control Notice
+---------------------
+
+This distribution includes cryptographic software.  The country in
+which you currently reside may have restrictions on the import,
+possession, use, and/or re-export to another country, of
+encryption software.  BEFORE using any encryption software, please
+check your country's laws, regulations and policies concerning the
+import, possession, or use, and re-export of encryption software, to
+see if this is permitted.  See <http://www.wassenaar.org/> for more
+information.
+
+The U.S. Government Department of Commerce, Bureau of Industry and
+Security (BIS), has classified this software as Export Commodity
+Control Number (ECCN) 5D002.C.1, which includes information security
+software using or performing cryptographic functions with asymmetric
+algorithms.  The form and manner of this Apache Software Foundation
+distribution makes it eligible for export under the License Exception
+ENC Technology Software Unrestricted (TSU) exception (see the BIS
+Export Administration Regulations, Section 740.13) for both object
+code and source code.
+
+The following provides more details on the included cryptographic software:
+
+This software uses the SSL libraries from the Jetty project written
+by mortbay.org.
+Hadoop Yarn Server Web Proxy uses the BouncyCastle Java
+cryptography APIs written by the Legion of the Bouncy Castle Inc.
+
+Apache Commons Math
+Copyright 2001-2016 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software developed for Orekit by
+CS Systèmes d'Information (http://www.c-s.fr/)
+Copyright 2010-2012 CS Systèmes d'Information
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+Apache Commons IO
+Copyright 2002-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+Apache Commons IO
+Copyright 2002-2020 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+Apache Thrift
+Copyright (C) 2006 - 2019, The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache Commons Collections
+Copyright 2001-2015 The Apache Software Foundation
+
+This product includes software developed by
+The Apache Software Foundation (http://www.apache.org/).
+
+
+   Copyright (c) 2014-2017, The UNBESCAPE team (http://www.unbescape.org)
+ 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+   =========================================================================
+   ==  NOTICE file corresponding to section 4(d) of the Apache License,   ==
+   ==  Version 2.0, in this case for the Apache XmlBeans distribution.    ==
+   =========================================================================
+
+   This product includes software developed at
+   The Apache Software Foundation (http://www.apache.org/).
+
+   Portions of this software were originally based on the following:
+     - software copyright (c) 2000-2003, BEA Systems, <http://www.bea.com/>.
+   Note: The ASF Secretary has on hand a Software Grant Agreement (SGA) from
+   BEA Systems, Inc. dated 9 Sep 2003 for XMLBeans signed by their EVP/CFO.
+
+   Aside from contributions to the Apache XMLBeans project, this
+   software also includes:
+
+    - one or more source files from the Apache Xerces-J and Apache Axis
+      products, Copyright (c) 1999-2003 Apache Software Foundation
+
+    - W3C XML Schema documents Copyright 2001-2003 (c) World Wide Web
+      Consortium (Massachusetts Institute of Technology, European Research
+      Consortium for Informatics and Mathematics, Keio University)
+
+    - resolver.jar from Apache Xml Commons project,
+      Copyright (c) 2001-2003 Apache Software Foundation
+
+ExceptionUtils is derived from `scala.util.control.NonFatal` in scala-library
+which was released under the Apache 2.0 license.
+
+Copyright (c) 2002-2023 EPFL
+Copyright (c) 2011-2023 Lightbend, Inc.
+
+Scala includes software developed at
+LAMP/EPFL (https://lamp.epfl.ch/) and
+Lightbend, Inc. (https://www.lightbend.com/).
+
+Apache Commons Text
+Copyright 2014-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+Apache Commons Logging
+Copyright 2001-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+Apache Hadoop
+Copyright 2006 and onwards The Apache Software Foundation.
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Export Control Notice
+---------------------
+
+This distribution includes cryptographic software.  The country in
+which you currently reside may have restrictions on the import,
+possession, use, and/or re-export to another country, of
+encryption software.  BEFORE using any encryption software, please
+check your country's laws, regulations and policies concerning the
+import, possession, or use, and re-export of encryption software, to
+see if this is permitted.  See <http://www.wassenaar.org/> for more
+information.
+
+The U.S. Government Department of Commerce, Bureau of Industry and
+Security (BIS), has classified this software as Export Commodity
+Control Number (ECCN) 5D002.C.1, which includes information security
+software using or performing cryptographic functions with asymmetric
+algorithms.  The form and manner of this Apache Software Foundation
+distribution makes it eligible for export under the License Exception
+ENC Technology Software Unrestricted (TSU) exception (see the BIS
+Export Administration Regulations, Section 740.13) for both object
+code and source code.
+
+The following provides more details on the included cryptographic software:
+
+This software uses the SSL libraries from the Jetty project written
+by mortbay.org.
+Hadoop Yarn Server Web Proxy uses the BouncyCastle Java
+cryptography APIs written by the Legion of the Bouncy Castle Inc.
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+
+                            The UADetector Project
+                            ======================
+
+Please visit the UADetector web site for more information:
+
+  * http://uadetector.sourceforge.net/
+
+Copyright 2012 André Rouél
+
+André Rouél licenses this product to you under the Apache License, version 2.0
+(the "License"); you may not use this product except in compliance with the
+License. You may obtain a copy of the License at:
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations under the License.
+
+Also, please refer to each LICENSE.<component>.txt file, which is located in
+the same directory as this file, for the license terms of the components that
+this product depends on.
+
+-------------------------------------------------------------------------------
+This product contains a modified version of Dave Koelle's Alphanum Algorithm,
+which can be obtained at:
+
+  * LICENSE:
+    * LICENSE.alphanum.txt (GNU LGPL 2.1 or above)
+  * HOMEPAGE:
+    * http://www.davekoelle.com/alphanum.html
+
+This product uses a version of Jaroslav Mallat's UAS Data, which can be
+obtained at:
+
+  * LICENSE:
+    * LICENSE.uas.txt (CC BY 3.0)
+  * HOMEPAGE:
+    * http://user-agent-string.info/
+
+                          The Netty Project
+                            =================
+
+Please visit the Netty web site for more information:
+
+  * http://netty.io/
+
+Copyright 2016 The Netty Project
+
+The Netty Project licenses this file to you under the Apache License,
+version 2.0 (the "License"); you may not use this file except in compliance
+with the License. You may obtain a copy of the License at:
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations
+under the License.
+
+-------------------------------------------------------------------------------
+This product contains a forked and modified version of Tomcat Native
+
+  * LICENSE:
+    * license/LICENSE.tomcat-native.txt (Apache License 2.0)
+  * HOMEPAGE:
+    * http://tomcat.apache.org/native-doc/
+    * https://svn.apache.org/repos/asf/tomcat/native/
+
+This product contains the Maven wrapper scripts from 'Maven Wrapper', that provides an easy way to ensure a user has everything necessary to run the Maven build.
+
+  * LICENSE:
+    * license/LICENSE.mvn-wrapper.txt (Apache License 2.0)
+  * HOMEPAGE:
+    * https://github.com/takari/maven-wrapper
+
+This product contains code from boringssl.
+
+  * LICENSE
+    * license/LICENSE.boringssl.txt (Apache License 2.0)
+  * HOMEPAGE:
+    * https://boringssl.googlesource.com/boringssl/
+
+Apache Commons Configuration
+Copyright 2001-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+Apache Commons Collections
+Copyright 2001-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+Apache Commons Net
+Copyright 2001-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).
+
+AWS SDK for Java 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+This software includes third party software subject to the following copyrights:
+- XML parsing and utility functions from JetS3t - Copyright 2006-2009 James Murty.
+- PKCS#1 PEM encoded private key parsing and utility functions from oauth.googlecode.com - Copyright 1998-2010 AOL Inc.
+- Apache Commons Lang - https://github.com/apache/commons-lang
+- Netty Reactive Streams - https://github.com/playframework/netty-reactive-streams
+- Jackson-core - https://github.com/FasterXML/jackson-core
+- Jackson-dataformat-cbor - https://github.com/FasterXML/jackson-dataformats-binary
+
+The licenses for these third party components are included in LICENSE.txt
+
+- For Apache Commons Lang see also this required NOTICE:
+  Apache Commons Lang
+  Copyright 2001-2020 The Apache Software Foundation
+  
+  This product includes software developed at
+  The Apache Software Foundation (https://www.apache.org/).

@@ -1,0 +1,99 @@
+# Same project as the parent compose.yaml: one deployment and one account store.
+name: fotoprint-presentation
+
+x-app: &app
+  image: fotoprint-app:local
+  build:
+    context: .
+  init: true
+
+services:
+  storage-init:
+    image: node:24-bookworm-slim
+    user: "0:0"
+    command: ["node", "/init.mjs"]
+    network_mode: none
+    read_only: true
+    volumes:
+      - ./scripts/container-init.mjs:/init.mjs:ro
+      - app-data:/app/.data
+      - analytics-data:/metabase-source
+    restart: "no"
+
+  metabase:
+    image: metabase/metabase:v0.65.3
+    depends_on:
+      storage-init:
+        condition: service_completed_successfully
+    environment:
+      MUID: "1000"
+      MGID: "1000"
+      MB_JETTY_HOST: 0.0.0.0
+      MB_JETTY_PORT: "3000"
+      MB_DB_TYPE: h2
+      MB_DB_FILE: /metabase-data/metabase
+      MB_ANON_TRACKING_ENABLED: "false"
+      MB_CHECK_FOR_UPDATES: "false"
+      MB_LOAD_SAMPLE_CONTENT: "false"
+      MB_LOAD_SAMPLE_DATA: "false"
+      MB_SITE_LOCALE: ru
+      MB_REPORT_TIMEZONE: Europe/Minsk
+      JAVA_TIMEZONE: Europe/Minsk
+      JAVA_OPTS: -Xmx768m
+    volumes:
+      - metabase-data:/metabase-data
+      - analytics-data:/metabase-source:ro
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://localhost:3000/api/health"]
+      interval: 5s
+      timeout: 5s
+      start_period: 120s
+      retries: 36
+    restart: unless-stopped
+    stop_grace_period: 30s
+
+  app:
+    <<: *app
+    hostname: app
+    depends_on:
+      metabase:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      CLIENT_HOST: 0.0.0.0
+      API_PORT: "8080"
+      API_HOST: 127.0.0.1
+      CONTOUR_FILES: /app/.data/filesystem
+      CONTOUR_AUTH: /app/.data/auth
+      CONTOUR_METABASE_SNAPSHOT: /metabase-source
+      METABASE_URL: http://metabase:3000
+      METABASE_SQLITE_PATH: /metabase-source/analytics.sqlite
+      CONTOUR_ALLOWED_HOSTS: ${CONTOUR_ALLOWED_HOSTS:-}
+      CONTOUR_PUBLIC_ORIGIN: ${CONTOUR_PUBLIC_ORIGIN:-}
+      TZ: Europe/Minsk
+    ports:
+      - "${APP_BIND:-0.0.0.0}:${APP_PORT:-3310}:3000"
+    volumes:
+      - app-data:/app/.data
+      - analytics-data:/metabase-source
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    healthcheck:
+      test: ["CMD", "node", "scripts/container-health.mjs"]
+      interval: 10s
+      timeout: 5s
+      start_period: 180s
+      retries: 12
+    restart: unless-stopped
+    stop_grace_period: 30s
+
+volumes:
+  app-data:
+  analytics-data:
+  metabase-data:

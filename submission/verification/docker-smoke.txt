@@ -1,0 +1,2 @@
+Container smoke passed: UI, LAN Host, authentication, manager ACL and real Metabase metrics. Persistence checkpoint saved.
+Container recreation verified: business CSV, accounts, audit, Metabase configuration and KPI values preserved.

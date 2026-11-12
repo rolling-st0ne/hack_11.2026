@@ -1,0 +1,878 @@
+SLF4J 2 Provider for Log4j API
+Copyright 1999-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Curator Framework
+Copyright 2011-2023 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+Apache HttpComponents Core HTTP/2
+Copyright 2005-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+   =========================================================================
+   ==  NOTICE file corresponding to section 4(d) of the Apache License,   ==
+   ==  Version 2.0, in this case for the Apache Xerces Java distribution. ==
+   =========================================================================
+
+   Apache Xerces Java
+   Copyright 1999-2022 The Apache Software Foundation
+
+   This product includes software developed at
+   The Apache Software Foundation (http://www.apache.org/).
+
+   Portions of this software were originally based on the following:
+     - software copyright (c) 1999, IBM Corporation., http://www.ibm.com.
+     - software copyright (c) 1999, Sun Microsystems., http://www.sun.com.
+     - voluntary contributions made by Paul Eng on behalf of the 
+       Apache Software Foundation that were originally developed at iClick, Inc.,
+       software copyright (c) 1999.
+Curator Client
+Copyright 2011-2023 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache POI
+Copyright 2003-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+This product contains parts that were originally based on software from BEA.
+Copyright (c) 2000-2003, BEA Systems, <http://www.bea.com/> (dead link),
+which was acquired by Oracle Corporation in 2008.
+<http://www.oracle.com/us/corporate/Acquisitions/bea/index.html>
+<https://en.wikipedia.org/wiki/BEA_Systems>
+Note: The ASF Secretary has on hand a Software Grant Agreement (SGA) from
+BEA Systems, Inc. dated 9 Sep 2003 for XMLBeans signed by their EVP/CFO.
+
+This product contains W3C XML Schema documents. Copyright 2001-2003 (c)
+World Wide Web Consortium (Massachusetts Institute of Technology, European
+Research Consortium for Informatics and Mathematics, Keio University)
+
+This product contains the chunks_parse_cmds.tbl file from the vsdump program.
+Copyright (C) 2006-2007 Valek Filippov (frob@df.ru)
+
+This product contains parts of the eID Applet project
+<http://eid-applet.googlecode.com> and <https://github.com/e-Contract/eid-applet>.
+Copyright (c) 2009-2018
+FedICT (federal ICT department of Belgium), e-Contract.be BVBA (https://www.e-contract.be),
+Bart Hanssens from FedICT
+
+ExceptionUtils is derived from `scala.util.control.NonFatal` in scala-library
+which was released under the Apache 2.0 license.
+
+Copyright (c) 2002-2023 EPFL
+Copyright (c) 2011-2023 Lightbend, Inc.
+
+Scala includes software developed at
+LAMP/EPFL (https://lamp.epfl.ch/) and
+Lightbend, Inc. (https://www.lightbend.com/).
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Licensing
+
+Jackson components are licensed under Apache (Software) License, version 2.0,
+as per accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+Apache Batik
+Copyright 1999-2022 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This software contains code from the World Wide Web Consortium (W3C) for the 
+Document Object Model API (DOM API) and SVG Document Type Definition (DTD).
+
+This software contains code from the International Organisation for
+Standardization for the definition of character entities used in the software's
+documentation.
+
+This product includes images from the Tango Desktop Project
+(http://tango.freedesktop.org/).
+
+This product includes images from the Pasodoble Icon Theme
+(http://www.jesusda.com/projects/pasodoble).
+
+Arrow Format
+Copyright 2025 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson 2.x core and extension components are licensed under Apache License 2.0
+To find the details that apply to this artifact see the accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS(-2.x) file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+Arrow Memory - Netty
+Copyright 2025 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache POI
+Copyright 2003-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+This product contains parts that were originally based on software from BEA.
+Copyright (c) 2000-2003, BEA Systems, <http://www.bea.com/> (dead link),
+which was acquired by Oracle Corporation in 2008.
+<http://www.oracle.com/us/corporate/Acquisitions/bea/index.html>
+<https://en.wikipedia.org/wiki/BEA_Systems>
+Note: The ASF Secretary has on hand a Software Grant Agreement (SGA) from
+BEA Systems, Inc. dated 9 Sep 2003 for XMLBeans signed by their EVP/CFO.
+
+This product contains W3C XML Schema documents. Copyright 2001-2003 (c)
+World Wide Web Consortium (Massachusetts Institute of Technology, European
+Research Consortium for Informatics and Mathematics, Keio University)
+
+This product contains the chunks_parse_cmds.tbl file from the vsdump program.
+Copyright (C) 2006-2007 Valek Filippov (frob@df.ru)
+
+This product contains parts of the eID Applet project
+<http://eid-applet.googlecode.com> and <https://github.com/e-Contract/eid-applet>.
+Copyright (c) 2009-2018
+FedICT (federal ICT department of Belgium), e-Contract.be BVBA (https://www.e-contract.be),
+Bart Hanssens from FedICT
+
+ExceptionUtils is derived from `scala.util.control.NonFatal` in scala-library
+which was released under the Apache 2.0 license.
+
+Copyright (c) 2002-2023 EPFL
+Copyright (c) 2011-2023 Lightbend, Inc.
+
+Scala includes software developed at
+LAMP/EPFL (https://lamp.epfl.ch/) and
+Lightbend, Inc. (https://www.lightbend.com/).
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson 2.x core and extension components are licensed under Apache License 2.0
+To find the details that apply to this artifact see the accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS(-2.x) file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+
+Apache HttpAsyncClient
+Copyright 2010-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+Apache Tika core
+Copyright 2007-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+Hive Shims
+Copyright 2008-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+Apache XML Security for Java
+Copyright 2000-2024 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache Log4j JUL Adapter
+Copyright 1999-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache XML Graphics Commons
+Copyright 2006-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson 2.x core and extension components are licensed under Apache License 2.0
+To find the details that apply to this artifact see the accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS(-2.x) file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+## FastDoubleParser
+
+jackson-core bundles a shaded copy of FastDoubleParser <https://github.com/wrandelshofer/FastDoubleParser>.
+That code is available under an MIT license <https://github.com/wrandelshofer/FastDoubleParser/blob/main/LICENSE>
+under the following copyright.
+
+Copyright © 2023 Werner Randelshofer, Switzerland. MIT License.
+
+See FastDoubleParser-LICENSE and also FastDoubleParser-ThirdParty-LICENSE for details of other source code
+included in FastDoubleParser and the licenses and copyrights that apply to that code.
+
+## Schubfach
+
+jackson-core bundles a copy of the Schubfach number writing code <https://github.com/c4f7fcce9cb06515/Schubfach>.
+That code is available under an MIT license <https://github.com/c4f7fcce9cb06515/Schubfach/blob/master/todec/LICENSE>
+under the following copyright.
+
+Copyright 2018-2020 Raffaello Giulietti
+
+See Schubfach-LICENSE.
+
+
+Hive Standalone Metastore Common Code
+Copyright 2008-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson components are licensed under Apache (Software) License, version 2.0,
+as per accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+Apache PDFBox
+Copyright 2002-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+Based on source code contributed to the original PDFBox project.
+Copyright (c) 2002-2007, www.pdfbox.org
+
+Includes the Adobe Glyph List
+Copyright 1997, 1998, 2002, 2007, 2010 Adobe Systems Incorporated.
+
+Includes the Zapf Dingbats Glyph List
+Copyright 2002, 2010 Adobe Systems Incorporated.
+
+Includes the Bidi Mirroring Glyph Property (BidiMirroring-8.0.0.txt)
+Copyright 1991-2015 Unicode, Inc.
+
+Includes parts of TwelveMonkeys ImageIO
+Copyright 2008-2016 Harald Kuhr
+
+Includes the CMYK ICC-profile (CGATS001Compat-v2-micro.icc) 
+https://github.com/saucecontrol/Compact-ICC-Profiles
+Released to the public domain under the Creative Commons CC0 license by Clinton Ingram, saucecontrol
+   
+Apache FontBox
+Copyright 2008-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+Based on source code contributed to the original FontBox project.
+Copyright (c) 2006-2007, www.fontbox.org
+
+Includes the Script Property (Scripts-10.0.0.txt)
+Copyright 2017 Unicode, Inc.
+
+
+Apache HttpClient Cache
+Copyright 2010-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Hive Service
+Copyright 2008-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Apache HttpCore NIO
+Copyright 2005-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+Apache Log4j JSON Template Layout
+Copyright 1999-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson components are licensed under Apache (Software) License, version 2.0,
+as per accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+
+Apache Velocity - Engine
+Copyright 2000-2020 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson 2.x core and extension components are licensed under Apache License 2.0
+To find the details that apply to this artifact see the accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS(-2.x) file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+## FastDoubleParser
+
+jackson-core bundles a shaded copy of FastDoubleParser <https://github.com/wrandelshofer/FastDoubleParser>.
+That code is available under an MIT license <https://github.com/wrandelshofer/FastDoubleParser/blob/main/LICENSE>
+under the following copyright.
+
+Copyright © 2023 Werner Randelshofer, Switzerland. MIT License.
+
+See FastDoubleParser-LICENSE and also FastDoubleParser-ThirdParty-LICENSE for details of other source code
+included in FastDoubleParser and the licenses and copyrights that apply to that code.
+
+## Schubfach
+
+jackson-core bundles a copy of the Schubfach number writing code <https://github.com/c4f7fcce9cb06515/Schubfach>.
+That code is available under an MIT license <https://github.com/c4f7fcce9cb06515/Schubfach/blob/master/todec/LICENSE>
+under the following copyright.
+
+Copyright 2018-2020 Raffaello Giulietti
+
+See Schubfach-LICENSE.
+
+
+Hive Storage API
+Copyright 2008-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson components are licensed under Apache (Software) License, version 2.0,
+as per accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+Arrow Memory - Netty Buffer
+Copyright 2025 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache Log4j Core
+Copyright 1999-2012 Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+ResolverUtil.java
+Copyright 2005-2006 Tim Fennell
+
+Apache HttpCore
+Copyright 2005-2022 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Apache HttpClient Cache
+Copyright 2010-2022 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+Apache Log4j 1.x Compatibility API
+Copyright 1999-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache POI
+Copyright 2003-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+This product contains parts that were originally based on software from BEA.
+Copyright (c) 2000-2003, BEA Systems, <http://www.bea.com/> (dead link),
+which was acquired by Oracle Corporation in 2008.
+<http://www.oracle.com/us/corporate/Acquisitions/bea/index.html>
+<https://en.wikipedia.org/wiki/BEA_Systems>
+Note: The ASF Secretary has on hand a Software Grant Agreement (SGA) from
+BEA Systems, Inc. dated 9 Sep 2003 for XMLBeans signed by their EVP/CFO.
+
+This product contains W3C XML Schema documents. Copyright 2001-2003 (c)
+World Wide Web Consortium (Massachusetts Institute of Technology, European
+Research Consortium for Informatics and Mathematics, Keio University)
+
+This product contains the chunks_parse_cmds.tbl file from the vsdump program.
+Copyright (C) 2006-2007 Valek Filippov (frob@df.ru)
+
+This product contains parts of the eID Applet project
+<http://eid-applet.googlecode.com> and <https://github.com/e-Contract/eid-applet>.
+Copyright (c) 2009-2018
+FedICT (federal ICT department of Belgium), e-Contract.be BVBA (https://www.e-contract.be),
+Bart Hanssens from FedICT
+
+ExceptionUtils is derived from `scala.util.control.NonFatal` in scala-library
+which was released under the Apache 2.0 license.
+
+Copyright (c) 2002-2023 EPFL
+Copyright (c) 2011-2023 Lightbend, Inc.
+
+Scala includes software developed at
+LAMP/EPFL (https://lamp.epfl.ch/) and
+Lightbend, Inc. (https://www.lightbend.com/).
+
+Arrow Memory - Core
+Copyright 2025 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+Hive JDBC
+Copyright 2008-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson 2.x core and extension components are licensed under Apache License 2.0
+To find the details that apply to this artifact see the accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS(-2.x) file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+Apache POI
+Copyright 2003-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+This product contains parts that were originally based on software from BEA.
+Copyright (c) 2000-2003, BEA Systems, <http://www.bea.com/> (dead link),
+which was acquired by Oracle Corporation in 2008.
+<http://www.oracle.com/us/corporate/Acquisitions/bea/index.html>
+<https://en.wikipedia.org/wiki/BEA_Systems>
+Note: The ASF Secretary has on hand a Software Grant Agreement (SGA) from
+BEA Systems, Inc. dated 9 Sep 2003 for XMLBeans signed by their EVP/CFO.
+
+This product contains W3C XML Schema documents. Copyright 2001-2003 (c)
+World Wide Web Consortium (Massachusetts Institute of Technology, European
+Research Consortium for Informatics and Mathematics, Keio University)
+
+This product contains the chunks_parse_cmds.tbl file from the vsdump program.
+Copyright (C) 2006-2007 Valek Filippov (frob@df.ru)
+
+This product contains parts of the eID Applet project
+<http://eid-applet.googlecode.com> and <https://github.com/e-Contract/eid-applet>.
+Copyright (c) 2009-2018
+FedICT (federal ICT department of Belgium), e-Contract.be BVBA (https://www.e-contract.be),
+Bart Hanssens from FedICT
+
+ExceptionUtils is derived from `scala.util.control.NonFatal` in scala-library
+which was released under the Apache 2.0 license.
+
+Copyright (c) 2002-2023 EPFL
+Copyright (c) 2011-2023 Lightbend, Inc.
+
+Scala includes software developed at
+LAMP/EPFL (https://lamp.epfl.ch/) and
+Lightbend, Inc. (https://www.lightbend.com/).
+
+
+Hive HPL/SQL
+Copyright 2008-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+Apache Log4j Commons Logging Bridge
+Copyright 1999-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Arrow Vectors
+Copyright 2025 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+Hive Shims 0.23
+Copyright 2008-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+datasketches-java
+Copyright 2015-2024 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Arrow Memory - Core
+Copyright 2025 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+Apache HttpClient
+Copyright 1999-2022 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Hive Shims Common
+Copyright 2008-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Apache HttpClient
+Copyright 1999-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Hive Llap Client
+Copyright 2008-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Apache MINA SSHD
+Copyright 2008-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Hive Service RPC
+Copyright 2008-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Hive Serde
+Copyright 2008-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+Apache PDFBox io
+Copyright 2002-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+Apache HttpComponents Core HTTP/1.1
+Copyright 2005-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+Apache Log4j API
+Copyright 1999-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache Calcite -- Avatica
+Copyright 2012-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+Apache Yetus - Audience Annotations
+Copyright 2015-2020 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Apache HttpClient Mime
+Copyright 1999-2022 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+
+Hive Common
+Copyright 2008-2026 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson components are licensed under Apache (Software) License, version 2.0,
+as per accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers.
+
+## Licensing
+
+Jackson components are licensed under Apache (Software) License, version 2.0,
+as per accompanying LICENSE file.
+
+## Credits
+
+A list of contributors may be found from CREDITS file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+
+Apache MINA SSHD
+Copyright 2018-2026 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+

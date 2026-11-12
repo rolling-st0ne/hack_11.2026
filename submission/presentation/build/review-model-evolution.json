@@ -1,0 +1,12 @@
+{
+  "slides": 7,
+  "newSlide": 3,
+  "title": "Подстраиваемся под модель данных вашей компании",
+  "scope": "Adaptability through adapters and calculation rules; new models require configuration",
+  "activeFile": "submission/presentation/output/fotoprint-presentation.pptx",
+  "sha256": "a82b65af21e1091495d85b2f415de5a25af74292f32d90f12414510ab58d4704",
+  "presentationFilesInOutput": 1,
+  "previousVersionsArchived": "submission/presentation/build/history/before-model-evolution-20261112-155021",
+  "visualReview": "All seven rendered slides inspected individually",
+  "teamUnchanged": true
+}
